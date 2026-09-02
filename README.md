@@ -1,18 +1,31 @@
 # M_K_Mokwena_ST10536622_Urban_Threads_WEDE5020_Poe
 
+---
+
 # Project Title: Urban Threads
 
+**My Project- Urban Threads**
+Urban Threads Clothing Store is an online clothing store website that allows customers to browse trendy and affortable clothing for women, men, and kids.The project focuses on creating a simple, attractive and user-friendly shopping experience using HTML and CSS.
+
+---
+
 ##  Student Information
-Student Number: ST10536622
-Student Full Name: Mokwena Mohlallwe Kelly
-Year: 1
-Group: 4
-Module: Web Development (Introduction)
-Module Code: WEDE5020
+|---|---|
+| Student Number | ST10536622 |
+| Student Full Name | Mokwena Mohlallwe Kelly |
+| Year | 1 |
+| Group | 4 |
+| Module | Web Development (Introduction) |
+| Module Code | WEDE5020 |
+| Lecturer | Deogratias Phiri |
+
+---
 
 ## Project Overview 
 1.2 Brief History
 Urban Threads Clothing Store is a Johannesburg-based apparel retailer in Gauteng, South Africa, that was founded in 2022. This business provides stylish yet budget-friendly clothing for both men and women, encompassing casual attire, formal outfits, footwear, and accessories. At present, the company promotes its merchandise via social media and in-person sales.
+
+---
 
 ## Website Goals amd Objectives 
 ## Specific goals
@@ -23,6 +36,8 @@ Urban Threads Clothing Store is a Johannesburg-based apparel retailer in Gauteng
 KPI 1 :Boost site visits by 40% in the first quarter following the launch.
 KPI 2 :Submit all available products in their entirety during the first month.
 KPI 3 :Obtain a minimum of 50 online inquiries each month via the website.
+
+---
 
 ## Key Features and Functionality
 Homepage :
@@ -81,20 +96,36 @@ Additional Features :
 Google Maps 
 Newsletter signup 
 
+---
+
 ## Timeline and Milestone
-Milestones	Target
-Research and Proposal	Week 1
-Sitemap and Wireframes	Week 2
-HTML Development	Week 3
-CSS Styling	Week 4
-JavaScript Functionality	Week 5
-Testing	Week 6
-Final Improvements	Week 7
-Final Submission	Week 8
+
+| Milestones	| Target Date | Status |
+| Planning & Wireframing |	05/08/2026 | Complete |
+| Part 1: Submit Proposal and Semantic HTML Structure | 14/08/2026 | Complete
+| Add external CSS styling CSS and mobile responsiveness | 16/09/2026 | Ongoing |
+| Part 2: Submit CSS and Responsiveness to website | 18/009/2026 | Planned |
+| Adding JavaScript and interactivity | TBC | Planned |
+| Part 3: Final Testing & Submission | TBC | Planned |
+
+---
+
+## Part 1 Details 
+
 
 ## Sitemap
 <img width="752" height="679" alt="image" src="https://github.com/user-attachments/assets/cd367ad3-7e99-46ea-a6ab-356c638d5654" />
 
+---
+
+## Changelog
+| Date | Version | Change Description | 
+|---|---|---|
+| 10/08/2026 | v1.0 | Initial setup,  added folder structure |
+| 12/08/2026 | v1.1 | Added index.html and basic navigation |
+| 14/08/2026 | v1.2 | Added about_Us.html and enquiry,html
+| 25/08/2026 | v1.3 ?
+| 
 ## Reference
 GitHub. (2026). GitHub Pages. Available at: https://pages.github.com/
 Google Fonts. (2026). Poppins Font. Available at: https://fonts.google.com/
@@ -110,8 +141,7 @@ Colour Theme Summary :
 
 Background: White and Light Grey (#F5F5F5)
 
-
-
+---
 
 
 
