@@ -4,9 +4,9 @@
 
 # Project Title: Urban Threads
 
-**My Project- Urban Threads**
-Urban Threads Clothing Store is an online clothing store website that allows customers to browse trendy and affordable clothing for women, men, and kids.The project focuses on creating a simple, attractive and user-friendly shopping experience using HTML and CSS.
+## My Project – Urban Threads
 
+Urban Threads Clothing Store is an online clothing store website that allows customers to browse trendy and affordable clothing for women, men and kids. The project focuses on creating a simple, attractive and user-friendly shopping experience using HTML and CSS.
 ---
 
 ## Student Information
