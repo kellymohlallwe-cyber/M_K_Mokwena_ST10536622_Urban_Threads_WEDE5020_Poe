@@ -5,7 +5,7 @@
 # Project Title: Urban Threads
 
 **My Project- Urban Threads**
-Urban Threads Clothing Store is an online clothing store website that allows customers to browse trendy and affortable clothing for women, men, and kids.The project focuses on creating a simple, attractive and user-friendly shopping experience using HTML and CSS.
+Urban Threads Clothing Store is an online clothing store website that allows customers to browse trendy and affordable clothing for women, men, and kids.The project focuses on creating a simple, attractive and user-friendly shopping experience using HTML and CSS.
 
 ---
 
@@ -27,7 +27,7 @@ Urban Threads Clothing Store is a Johannesburg-based apparel retailer in Gauteng
 
 ---
 
-## Website Goals amd Objectives 
+## Website Goals aND Objectives 
 ## Specific goals
 Goal 1 : Enhance the company’s presence on the internet.
 Goal 2 : Offers clients an online apparel directory.
@@ -100,13 +100,14 @@ Additional Features :
 
 ## Timeline and Milestone
 
-| Milestones	| Target Date | Status |
-| Planning & Wireframing |	05/08/2026 | Complete |
-| Part 1: Submit Proposal and Semantic HTML Structure | 14/08/2026 | Complete
-| Add external CSS styling CSS and mobile responsiveness | 16/09/2026 | Ongoing |
-| Part 2: Submit CSS and Responsiveness to website | 18/009/2026 | Planned |
-| Adding JavaScript and interactivity | TBC | Planned |
-| Part 3: Final Testing & Submission | TBC | Planned |
+| Milestones | Target Date | Status |
+|---|---|---|
+| Planning & Wireframing | 05/08/2026 | Complete |
+| Part 1: Submit Proposal and Semantic HTML Structure | 14/08/2026 | Complete |
+| Add external CSS styling and mobile responsiveness | 16/09/2026 | Ongoing |
+| Part 2: Submit CSS and Responsive Website | 18/09/2026 | Planned |
+| Adding JavaScript and Interactivity | TBC | Planned |
+| Part 3: Final Testing and Submission | TBC | Planned |
 
 ---
 
