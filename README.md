@@ -111,11 +111,108 @@ Additional Features :
 
 ---
 
-## Part 1 Details 
+## Part 1 Details
 
+Part 1 focused on planning and creating the basic structure of the Urban Threads website using HTML.
 
-## Sitemap
-<img width="752" height="679" alt="image" src="https://github.com/user-attachments/assets/cd367ad3-7e99-46ea-a6ab-356c638d5654" />
+The following was completed:
+
+- Created the project folder structure.
+- Created the main HTML pages:
+  - Home
+  - About Us
+  - Products
+  - Enquiry
+  - Contact
+- Added a navigation menu linking all pages.
+- Added basic website content.
+- Added product images.
+- Created the website sitemap.
+- Created low-fidelity wireframes.
+- Used semantic HTML elements such as `header`, `nav`, `section`, `form` and `footer`.
+- Added basic forms for enquiries and contact.
+- Created a README file containing the project information, goals, timeline, sitemap and references.
+
+### Sitemap
+
+<img width="752" height="679" alt="Urban Threads Sitemap" src="https://github.com/user-attachments/assets/cd367ad3-7e99-46ea-a6ab-356c638d5654" />
+
+---
+
+## Part 2: CSS Styling and Responsive Design
+
+Part 2 focused on improving the visual appearance, layout and responsiveness of the Urban Threads website.
+
+### External CSS Stylesheet
+
+An external stylesheet named `style.css` was created and linked to all HTML pages. This allows the website to maintain consistent styling across all pages.
+
+### Base Styling
+
+A CSS reset was applied to remove default browser margins and padding. The website uses a consistent colour scheme, typography, spacing and layout.
+
+The main colours used are:
+
+- Sky Blue: #87CEEB
+- Dark Navy: #1E3A5F
+- White: #FFFFFF
+- Light Grey: #F5F5F5
+
+### Typography
+
+Typography styling was applied to headings, paragraphs, navigation links, forms and buttons. Relative units such as `rem` were used to improve responsiveness.
+
+### Layout
+
+CSS Flexbox was used for the navigation and hero sections.
+
+CSS Grid was used for the product cards, clothing categories and contact page.
+
+### Visual Styling
+
+Borders, background colours, border radius and box shadows were added to improve the appearance of the website.
+
+The `:hover`, `:focus` and `:active` pseudo-classes were used to provide visual feedback when users interact with links, buttons and form elements.
+
+### Responsive Design
+
+Media queries were used to make the website responsive on different screen sizes.
+
+Desktop devices display products and categories in multiple columns.
+
+Tablet devices display fewer columns to fit smaller screens.
+
+Mobile devices display the content in a single-column layout and navigation links are stacked vertically.
+
+### Breakpoints
+
+Tablet breakpoint: 768px
+
+Mobile breakpoint: 480px
+
+### Responsive Images
+
+Images use responsive CSS properties such as:
+
+`max-width: 100%`
+
+and
+
+`height: auto`
+
+This allows images to resize according to the available screen width.
+
+### Accessibility
+
+Form labels were linked to their form controls using the `for` and `id` attributes.
+
+Focus styles were also added to navigation links, buttons and form elements to assist keyboard users.
+
+### Testing
+
+The website was tested using browser developer tools at desktop, tablet and mobile screen sizes.
+
+Screenshots of each responsive layout were captured and added as evidence to the README.
 
 ---
 
