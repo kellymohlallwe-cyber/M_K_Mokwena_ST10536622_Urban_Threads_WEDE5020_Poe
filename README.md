@@ -24,9 +24,11 @@ Urban Threads Clothing Store is an online clothing store website that allows cus
 
 ---
 
-## Project Overview 
-1.2 Brief History
-Urban Threads Clothing Store is a Johannesburg-based apparel retailer in Gauteng, South Africa, that was founded in 2022. This business provides stylish yet budget-friendly clothing for both men and women, encompassing casual attire, formal outfits, footwear, and accessories. At present, the company promotes its merchandise via social media and in-person sales.
+## Project Overview
+
+Urban Threads is a clothing store based in Johannesburg, Gauteng, South Africa. It was established in 2022 to provide stylish and affordable clothing for its customers. The store offers clothing for men, women and kids, including casual wear, shoes and accessories.
+
+The Urban Threads website is designed to give the business an online presence where customers can browse products, learn more about the store, submit enquiries and easily access contact information.
 
 ---
 
