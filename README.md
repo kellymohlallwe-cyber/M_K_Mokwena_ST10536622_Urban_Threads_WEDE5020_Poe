@@ -221,20 +221,28 @@ Screenshots of each responsive layout were captured and added as evidence to the
 | 14/08/2026 | v1.2 | Added about_Us.html and enquiry,html
 | 25/08/2026 | v1.3 ?
 | 
-## Reference
-GitHub. (2026). GitHub Pages. Available at: https://pages.github.com/
-Google Fonts. (2026). Poppins Font. Available at: https://fonts.google.com/
-MDN Web Docs. (2026). HTML, CSS and JavaScript Documentation. Available at: https://developer.mozilla.org/
-ZADNA. (2026). .co.za Domain Registration. Available at: https://zadna.org.za/
 
-Colour Theme Summary : 
-Primary Colour: Sky Blue (#87CEEB) 
+---
 
-Font Colour: White (#FFFFFF) on coloured sections 
+## References
 
-Secondary Colour: Dark Navy (#1E3A5F) 
+GitHub. (2026). *GitHub Pages*. Available at: https://pages.github.com/ (Accessed: 6 September 2026).
 
-Background: White and Light Grey (#F5F5F5)
+Google Fonts. (2026). *Google Fonts*. Available at: https://fonts.google.com/ (Accessed: 6 September 2026).
+
+MDN Web Docs. (2026). *CSS: Cascading Style Sheets*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: 6 September 2026).
+
+MDN Web Docs. (2026). *CSS Flexible Box Layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout (Accessed: 6 September 2026).
+
+MDN Web Docs. (2026). *CSS Grid Layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout (Accessed: 6 September 2026).
+
+MDN Web Docs. (2026). *Using Media Queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries (Accessed: 6 September 2026).
+
+W3Schools. (2026). *CSS Tutorial*. Available at: https://www.w3schools.com/css/ (Accessed: 6 September 2026).
+
+W3Schools. (2026). *Responsive Web Design*. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (Accessed: 6 September 2026).
+
+ZADNA. (2026). *ZA Domain Name Authority*. Available at: https://www.zadna.org.za/ (Accessed: 6 September 2026).
 
 ---
 
