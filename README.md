@@ -43,61 +43,50 @@ Urban Threads Clothing Store is a Johannesburg-based apparel retailer in Gauteng
 ---
 
 ## Key Features and Functionality
-Homepage :
-Hero banner 
-Featured products 
-Latest arrivals 
-Promotions 
-Call-to-action buttons 
-Customer testimonials 
 
- About Us :
-Company history 
-Mission 
-Vision 
-Core values 
-Meet the team 
+### Homepage
+- Hero banner
+- Featured clothing categories
+- Shop Now button
+- Easy navigation
 
-Services/Products : 
-Categories include:
-Men's Clothing 
-Women's Clothing 
-Shoes 
-Accessories 
+### About Us
+- Company information
+- Mission
+- Vision
+- Reasons to choose Urban Threads
 
-Each product will include:
-Product image 
-Name 
-Price 
-Description 
-Size availability 
+### Products
+- Product images
+- Product names
+- Product prices
+- View Details buttons
+- Responsive product layout
 
-Enquiry :
-Customers can:
-Request products 
-Ask questions 
-Submit clothing enquiries 
-Join the newsletter 
+### Enquiry
+- Customer enquiry form
+- Product enquiries
+- Order enquiries
+- Delivery enquiries
+- Returns and exchanges
+- General enquiries
 
- Contact :
-The page will include:
-Contact form 
-Phone number 
-Email address 
-Physical address 
-Google Maps location 
-Business hours 
-Social media links 
+### Contact
+- Contact information
+- Physical address
+- Phone number
+- Email address
+- Business hours
+- Contact form
 
-Additional Features :
-Responsive design 
-Mobile-friendly layout 
-Product search bar 
-Category filters 
-Image gallery 
-Social media integration 
-Google Maps 
-Newsletter signup 
+### Additional Features
+- Responsive design
+- Mobile-friendly layout
+- Easy navigation
+- Responsive images
+- Hover and focus effects
+- Accessible forms
+- Consistent colour scheme and styling
 
 ---
 
