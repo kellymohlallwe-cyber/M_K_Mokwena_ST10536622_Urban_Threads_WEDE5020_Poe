@@ -9,13 +9,16 @@ Urban Threads Clothing Store is an online clothing store website that allows cus
 
 ---
 
-##  Student Information
+## Student Information
+
+| Information | Details |
 |---|---|
-| Student Number | ST10536622 |
 | Student Full Name | Mokwena Mohlallwe Kelly |
+| Student Number | ST10536622 |
+| Programme | Diploma in Information Technology in Software Development |
 | Year | 1 |
 | Group | 4 |
-| Module | Web Development (Introduction) |
+| Module | Web Development |
 | Module Code | WEDE5020 |
 | Lecturer | Deogratias Phiri |
 
