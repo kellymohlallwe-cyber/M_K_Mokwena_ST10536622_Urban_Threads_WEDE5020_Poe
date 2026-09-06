@@ -30,16 +30,19 @@ Urban Threads Clothing Store is a Johannesburg-based apparel retailer in Gauteng
 
 ---
 
-## Website Goals aND Objectives 
-## Specific goals
-Goal 1 : Enhance the company’s presence on the internet.
-Goal 2 : Offers clients an online apparel directory.
-Goal 3 : Boost customer enquiry.
-## KPIs
-KPI 1 :Boost site visits by 40% in the first quarter following the launch.
-KPI 2 :Submit all available products in their entirety during the first month.
-KPI 3 :Obtain a minimum of 50 online inquiries each month via the website.
+## Website Goals and Objectives
 
+### Specific Goals
+
+- **Goal 1:** Improve Urban Threads' online presence.
+- **Goal 2:** Provide customers with an online catalogue to browse available clothing.
+- **Goal 3:** Make it easier for customers to contact the business and submit enquiries.
+
+### Key Performance Indicators (KPIs)
+
+- **KPI 1:** Increase website visits by 40% within the first three months after launch.
+- **KPI 2:** Display all available clothing products on the website within the first month.
+- **KPI 3:** Receive at least 50 customer enquiries per month through the website.
 ---
 
 ## Key Features and Functionality
