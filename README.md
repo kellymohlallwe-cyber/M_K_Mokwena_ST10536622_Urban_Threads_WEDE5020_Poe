@@ -6,7 +6,7 @@
 
 ## My Project – Urban Threads
 
-Urban Threads Clothing Store is an online clothing store website that allows customers to browse trendy and affordable clothing for women, men and kids. The project focuses on creating a simple, attractive and user-friendly shopping experience using HTML and CSS.
+Customers can peruse stylish and reasonably priced apparel for men, women, and children on the Urban Threads apparel Store website. The project's main goal is to employ HTML and CSS to create a straightforward, appealing, and easy-to-use shopping experience.
 
 ---
 
@@ -27,9 +27,9 @@ Urban Threads Clothing Store is an online clothing store website that allows cus
 
 ## Project Overview
 
-Urban Threads is a clothing store based in Johannesburg, Gauteng, South Africa. It was established in 2022 to provide stylish and affordable clothing for its customers. The store offers clothing for men, women and kids, including casual wear, shoes and accessories.
+The South African apparel retailer Urban Threads is situated in Johannesburg, Gauteng. It was founded in 2022 with the goal of offering its clients fashionable and reasonably priced apparel. The business sells casual clothing, accessories, and shoes for men, women, and children.
 
-The Urban Threads website is designed to give the business an online presence where customers can browse products, learn more about the store, submit enquiries and easily access contact information.
+The purpose of the Urban Threads website is to provide the company with an online presence where clients may peruse merchandise, discover more about the store, send inquiries, and readily obtain contact details.
 
 ---
 
@@ -111,7 +111,7 @@ The Urban Threads website is designed to give the business an online presence wh
 
 ## Part 1 Details
 
-Part 1 focused on creating the basic structure and content of the Urban Threads website using HTML.
+Part 1 concentrated on utilizing HTML to create the fundamental framework and content of the Urban Threads website.
 
 ### Pages Completed
 - index.html
@@ -121,18 +121,18 @@ Part 1 focused on creating the basic structure and content of the Urban Threads 
 - contact.html
 
 ### Structure and Semantics
-- Used semantic HTML5 elements such as header, nav, section, form and footer.
-- Added navigation links between the website pages.
-- Added headings, paragraphs, lists, images and forms.
+- Semantic HTML5 elements like header, nav, section, form, and footer were used.
+- Added links for navigating across the pages of the website.
+- Headings, paragraphs, lists, pictures, and forms have all been included.
 
 ### Features Completed
-- Created the basic website structure.
-- Added information about Urban Threads.
-- Added clothing products with images, names and prices.
-- Added an enquiry form.
-- Added a contact form and contact information.
-- Created a sitemap for the website.
-- Added the project information to the README.md file.
+- Developed the fundamental framework for the website.
+- Information regarding Urban Threads has been added.
+- Added apparel items with names, pricing, and pictures.
+- An inquiry form has been added.
+- A contact form and contact details have been added.
+- Made the website's sitemap.
+- Updated the README.md file with the project details.
 
 ---
 
@@ -144,32 +144,32 @@ Part 1 focused on creating the basic structure and content of the Urban Threads 
 
 ## Part 2 Details
 
-Part 2 focused on improving the visual appearance and responsiveness of the Urban Threads website using CSS.
+In Part 2, we used CSS to enhance the Urban Threads website's visual appeal and responsiveness.
 
 ### CSS Styling
-- Updated the external style.css file.
-- Added colours, fonts, margins and padding.
-- Styled the navigation, buttons, forms and product sections.
-- Added hover, focus and active effects.
+- The external style.css file was updated.
+- Padding, margins, typefaces, and colors were added.
+- The product sections, buttons, forms, and navigation were all styled.
+- Hover, focus, and active effects were added.
 
 ### Layout
-- Used Flexbox to organise and align website elements.
-- Used CSS Grid to arrange products and other sections.
-- Improved spacing and alignment across the website.
+- Flexbox was used to arrange and align the components of the website.
+- Products and other sections were arranged using CSS Grid.
+- Better alignment and spacing throughout the website.
 
 ### Responsive Design
-- Added media queries for different screen sizes.
-- Created responsive layouts for desktop, tablet and mobile devices.
-- Used relative units such as %, rem and em.
-- Made images responsive to different screen sizes.
+- Media queries for various screen sizes have been included.
+- Designed mobile, tablet, and desktop responsive layouts.
+- Relative units like %, rem, and em were used.
+- Images are now responsive to various screen sizes.
 
 ### User Experience
-- Improved readability and navigation.
-- Added clear and consistent styling across all pages.
-- Improved form accessibility using labels and focus styles.
+- Navigation and readability.
+- All pages now have a clear, uniform style.
+- Labels and emphasis styles are used to improve form accessibility.
 
 ### Testing
-The website was tested using browser developer tools at desktop, tablet and mobile screen sizes.
+Browser developer tools were used to test the website on desktop, tablet, and mobile screens.
 
 ---
 
