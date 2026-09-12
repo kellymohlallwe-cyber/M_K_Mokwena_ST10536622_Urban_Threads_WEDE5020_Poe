@@ -7,6 +7,7 @@
 ## My Project – Urban Threads
 
 Urban Threads Clothing Store is an online clothing store website that allows customers to browse trendy and affordable clothing for women, men and kids. The project focuses on creating a simple, attractive and user-friendly shopping experience using HTML and CSS.
+
 ---
 
 ## Student Information
@@ -110,25 +111,30 @@ The Urban Threads website is designed to give the business an online presence wh
 
 ## Part 1 Details
 
-Part 1 focused on planning and creating the basic structure of the Urban Threads website using HTML.
+Part 1 focused on creating the basic structure and content of the Urban Threads website using HTML.
 
-The following was completed:
+### Pages Completed
+- index.html
+- about_us.html
+- products.html
+- enquiry.html
+- contact.html
 
-- Created the project folder structure.
-- Created the main HTML pages:
-  - Home
-  - About Us
-  - Products
-  - Enquiry
-  - Contact
-- Added a navigation menu linking all pages.
-- Added basic website content.
-- Added product images.
-- Created the website sitemap.
-- Created low-fidelity wireframes.
-- Used semantic HTML elements such as `header`, `nav`, `section`, `form` and `footer`.
-- Added basic forms for enquiries and contact.
-- Created a README file containing the project information, goals, timeline, sitemap and references.
+### Structure and Semantics
+- Used semantic HTML5 elements such as header, nav, section, form and footer.
+- Added navigation links between the website pages.
+- Added headings, paragraphs, lists, images and forms.
+
+### Features Completed
+- Created the basic website structure.
+- Added information about Urban Threads.
+- Added clothing products with images, names and prices.
+- Added an enquiry form.
+- Added a contact form and contact information.
+- Created a sitemap for the website.
+- Added the project information to the README.md file.
+
+---
 
 ### Sitemap
 
@@ -136,91 +142,51 @@ The following was completed:
 
 ---
 
-## Part 2: CSS Styling and Responsive Design
+## Part 2 Details
 
-Part 2 focused on improving the visual appearance, layout and responsiveness of the Urban Threads website.
+Part 2 focused on improving the visual appearance and responsiveness of the Urban Threads website using CSS.
 
-### External CSS Stylesheet
-
-An external stylesheet named `style.css` was created and linked to all HTML pages. This allows the website to maintain consistent styling across all pages.
-
-### Base Styling
-
-A CSS reset was applied to remove default browser margins and padding. The website uses a consistent colour scheme, typography, spacing and layout.
-
-The main colours used are:
-
-- Sky Blue: #87CEEB
-- Dark Navy: #1E3A5F
-- White: #FFFFFF
-- Light Grey: #F5F5F5
-
-### Typography
-
-Typography styling was applied to headings, paragraphs, navigation links, forms and buttons. Relative units such as `rem` were used to improve responsiveness.
+### CSS Styling
+- Updated the external style.css file.
+- Added colours, fonts, margins and padding.
+- Styled the navigation, buttons, forms and product sections.
+- Added hover, focus and active effects.
 
 ### Layout
-
-CSS Flexbox was used for the navigation and hero sections.
-
-CSS Grid was used for the product cards, clothing categories and contact page.
-
-### Visual Styling
-
-Borders, background colours, border radius and box shadows were added to improve the appearance of the website.
-
-The `:hover`, `:focus` and `:active` pseudo-classes were used to provide visual feedback when users interact with links, buttons and form elements.
+- Used Flexbox to organise and align website elements.
+- Used CSS Grid to arrange products and other sections.
+- Improved spacing and alignment across the website.
 
 ### Responsive Design
+- Added media queries for different screen sizes.
+- Created responsive layouts for desktop, tablet and mobile devices.
+- Used relative units such as %, rem and em.
+- Made images responsive to different screen sizes.
 
-Media queries were used to make the website responsive on different screen sizes.
-
-Desktop devices display products and categories in multiple columns.
-
-Tablet devices display fewer columns to fit smaller screens.
-
-Mobile devices display the content in a single-column layout and navigation links are stacked vertically.
-
-### Breakpoints
-
-Tablet breakpoint: 768px
-
-Mobile breakpoint: 480px
-
-### Responsive Images
-
-Images use responsive CSS properties such as:
-
-`max-width: 100%`
-
-and
-
-`height: auto`
-
-This allows images to resize according to the available screen width.
-
-### Accessibility
-
-Form labels were linked to their form controls using the `for` and `id` attributes.
-
-Focus styles were also added to navigation links, buttons and form elements to assist keyboard users.
+### User Experience
+- Improved readability and navigation.
+- Added clear and consistent styling across all pages.
+- Improved form accessibility using labels and focus styles.
 
 ### Testing
-
 The website was tested using browser developer tools at desktop, tablet and mobile screen sizes.
-
-Screenshots of each responsive layout were captured and added as evidence to the README.
 
 ---
 
 ## Changelog
-| Date | Version | Change Description | 
+
+| Date | Version | Change Description |
 |---|---|---|
-| 10/08/2026 | v1.0 | Initial setup,  added folder structure |
+| 10/08/2026 | v1.0 | Initial setup, added folder structure |
 | 12/08/2026 | v1.1 | Added index.html and basic navigation |
-| 14/08/2026 | v1.2 | Added about_Us.html and enquiry,html
-| 25/08/2026 | v1.3 ?
-| 
+| 14/08/2026 | v1.2 | Added about_us.html and enquiry.html |
+| 25/08/2026 | v1.3 | Added initial style.css |
+| 12/09/2026 | v2.0 | Corrected HTML errors from Part 1 |
+| 12/09/2026 | v2.1 | Updated style.css with typography, colours and layout styling |
+| 12/09/2026 | v2.2 | Added Flexbox and CSS Grid for website layouts |
+| 12/09/2026 | v2.3 | Added responsive design using media queries for tablet and mobile devices |
+| 12/09/2026 | v2.4 | Added hover, focus and active styles to navigation links, buttons and form elements |
+| 12/09/2026 | v2.5 | Updated README.md with Part 2 information |
 
 ---
 
