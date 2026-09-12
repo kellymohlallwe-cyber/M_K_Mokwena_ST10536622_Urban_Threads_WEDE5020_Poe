@@ -1,66 +1,128 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
+    <!-- Responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Urban Threads - Enquiry</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- External stylesheet -->
+    <link rel="styleSheet" href="./CSS/style.css"/>
+
+
 </head>
 
 <body>
 
-<header>
-    <h1>URBAN THREADS</h1>
-    <p>Clothing Store</p>
+    <!-- Header -->
+    <header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="products.html">Products</a>
-        <a href="enquiry.html">Enquiry</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+        <h1>URBAN THREADS</h1>
 
-<section class="page-heading">
-    <h2>Enquiry</h2>
-    <p>Send us your questions or requests</p>
-</section>
+        <p>Clothing Store</p>
 
-<section class="enquiry">
+        <!-- Main navigation -->
+        <nav>
 
-    <h2>Make An Enquiry</h2>
+            <a href="index.html">Home</a>
 
-    <form>
+            <a href="about.html">About Us</a>
 
-        <label>Full Name</label>
-        <input type="text" name="name" required>
+            <a href="products.html">Products</a>
 
-        <label>Email Address</label>
-        <input type="email" name="email" required>
+            <a href="enquiry.html" class="active">Enquiry</a>
 
-        <label>Enquiry Type</label>
+            <a href="contact.html">Contact</a>
 
-        <select name="enquiry">
-            <option>Product Enquiry</option>
-            <option>Order Enquiry</option>
-            <option>Delivery Enquiry</option>
-            <option>Returns and Exchanges</option>
-            <option>General Enquiry</option>
-        </select>
+        </nav>
 
-        <label>Your Message</label>
-        <textarea name="message" required></textarea>
+    </header>
 
-        <button type="submit">Submit Enquiry</button>
 
-    </form>
+    <!-- Page heading -->
+    <section class="page-heading">
 
-</section>
+        <h2>Enquiry</h2>
 
-<footer>
-    <p>&copy; 2026 Urban Threads. All Rights Reserved.</p>
-</footer>
+        <p>Send us your questions or requests.</p>
+
+    </section>
+
+
+    <!-- Enquiry form -->
+    <section class="enquiry">
+
+        <h2>Make an Enquiry</h2>
+
+        <form>
+
+            <!-- Customer name -->
+            <label for="enquiry-name">Full Name</label>
+
+            <input
+                type="text"
+                id="enquiry-name"
+                name="name"
+                required>
+
+
+            <!-- Customer email -->
+            <label for="enquiry-email">Email Address</label>
+
+            <input
+                type="email"
+                id="enquiry-email"
+                name="email"
+                required>
+
+
+            <!-- Enquiry category -->
+            <label for="enquiry-type">Enquiry Type</label>
+
+            <select id="enquiry-type" name="enquiry">
+
+                <option value="product">Product Enquiry</option>
+
+                <option value="order">Order Enquiry</option>
+
+                <option value="delivery">Delivery Enquiry</option>
+
+                <option value="returns">Returns and Exchanges</option>
+
+                <option value="general">General Enquiry</option>
+
+            </select>
+
+
+            <!-- Customer message -->
+            <label for="enquiry-message">Your Message</label>
+
+            <textarea
+                id="enquiry-message"
+                name="message"
+                required></textarea>
+
+
+            <!-- Submit button -->
+            <button type="submit">Submit Enquiry</button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>&copy; 2026 Urban Threads. All Rights Reserved.</p>
+
+    </footer>
 
 </body>
+
 </html>
