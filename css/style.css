@@ -1,1 +1,497 @@
-*
+/* ========================================
+   URBAN THREADS CLOTHING STORE
+   WEDE5020 - PART 2
+   External Stylesheet
+   ======================================== */
+
+
+/* CSS RESET
+   Removes default browser spacing so that
+   the website looks consistent in browsers.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #F5F5F5;
+    color: #1E3A5F;
+}
+
+
+/* Makes all images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* ========================================
+   HEADER
+   ======================================== */
+
+header {
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1.5rem 5%;
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+}
+
+header p {
+    margin-bottom: 1rem;
+}
+
+
+/* ========================================
+   NAVIGATION
+   Flexbox is used to arrange navigation links.
+   ======================================== */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+    transition: 0.3s;
+}
+
+
+/* Hover effect */
+nav a:hover {
+    background-color: #87CEEB;
+    color: #1E3A5F;
+}
+
+
+/* Keyboard accessibility */
+nav a:focus {
+    outline: 0.15rem solid #FFFFFF;
+}
+
+
+/* Active click effect */
+nav a:active {
+    transform: scale(0.95);
+}
+
+
+/* Shows the page currently being viewed */
+nav a.active {
+    background-color: #87CEEB;
+    color: #1E3A5F;
+}
+
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+
+.hero {
+    background-color: #87CEEB;
+    min-height: 22rem;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 3rem 5%;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* ========================================
+   BUTTONS
+   ======================================== */
+
+.button,
+button {
+    display: inline-block;
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+
+    padding: 0.7rem 1.4rem;
+
+    border: none;
+    border-radius: 0.3rem;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    font-size: 1rem;
+
+    transition: 0.3s;
+}
+
+.button:hover,
+button:hover {
+    background-color: #87CEEB;
+    color: #1E3A5F;
+    box-shadow: 0 0.25rem 0.6rem rgba(0, 0, 0, 0.2);
+}
+
+.button:focus,
+button:focus {
+    outline: 0.15rem solid #1E3A5F;
+}
+
+.button:active,
+button:active {
+    transform: scale(0.96);
+}
+
+
+/* ========================================
+   GENERAL SECTIONS
+   ======================================== */
+
+section {
+    width: 90%;
+    max-width: 75rem;
+
+    margin: 2rem auto;
+    padding: 2rem;
+
+    background-color: #FFFFFF;
+
+    border-radius: 0.5rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+
+/* ========================================
+   PAGE HEADING
+   ======================================== */
+
+.page-heading {
+    background-color: #87CEEB;
+    text-align: center;
+}
+
+
+/* ========================================
+   HOME PAGE CATEGORIES
+   CSS Grid is used for the layout.
+   ======================================== */
+
+.categories {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 1.5rem;
+}
+
+.categories div {
+    background-color: #F5F5F5;
+
+    padding: 2rem;
+
+    text-align: center;
+
+    border: 0.1rem solid #87CEEB;
+    border-radius: 0.5rem;
+
+    transition: 0.3s;
+}
+
+.categories div:hover {
+    transform: translateY(-0.3rem);
+
+    box-shadow: 0 0.3rem 0.7rem rgba(0, 0, 0, 0.15);
+}
+
+
+/* ========================================
+   ABOUT PAGE
+   ======================================== */
+
+.content ul {
+    margin-left: 2rem;
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
+
+
+/* ========================================
+   PRODUCTS PAGE
+   ======================================== */
+
+.products {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+}
+
+.product {
+    background-color: #FFFFFF;
+
+    border: 0.1rem solid #DDDDDD;
+
+    border-radius: 0.5rem;
+
+    padding: 1.5rem;
+
+    text-align: center;
+
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-0.4rem);
+
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 100%;
+
+    height: 15rem;
+
+    margin-bottom: 1rem;
+
+    overflow: hidden;
+
+    border-radius: 0.4rem;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.product h3 {
+    margin-bottom: 0.5rem;
+}
+
+.product p {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+/* ========================================
+   FORMS
+   ======================================== */
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.7rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+
+    padding: 0.75rem;
+
+    font-size: 1rem;
+
+    border: 0.1rem solid #CCCCCC;
+
+    border-radius: 0.3rem;
+}
+
+textarea {
+    min-height: 8rem;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 0.15rem solid #87CEEB;
+    border-color: #1E3A5F;
+}
+
+
+/* ========================================
+   CONTACT PAGE
+   ======================================== */
+
+.contact {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 3rem;
+}
+
+
+/* ========================================
+   ENQUIRY PAGE
+   ======================================== */
+
+.enquiry {
+    max-width: 50rem;
+}
+
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+footer {
+    background-color: #1E3A5F;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    padding: 1.5rem;
+
+    margin-top: 3rem;
+}
+
+
+/* ========================================
+   TABLET RESPONSIVE DESIGN
+   Breakpoint: 768px
+   ======================================== */
+
+@media screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    nav {
+        gap: 0.5rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* ========================================
+   MOBILE RESPONSIVE DESIGN
+   Breakpoint: 480px
+   ======================================== */
+
+@media screen and (max-width: 480px) {
+
+    body {
+        font-size: 0.95rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    section {
+        width: 95%;
+
+        padding: 1.2rem;
+
+        margin: 1rem auto;
+    }
+
+    .hero {
+        min-height: 18rem;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .categories {
+        grid-template-columns: 1fr;
+    }
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .product-image {
+        height: 18rem;
+    }
+}
