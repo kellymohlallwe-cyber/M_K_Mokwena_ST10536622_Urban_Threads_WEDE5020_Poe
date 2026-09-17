@@ -207,6 +207,7 @@ The website was tested using browser developer tools on different screen size.
 | 17/09/2026 | v2.8 | Updated Home, Services and Products pages |
 | 17/09/2026 | v2.9 | Updated Enquiries and Contact Us pages |
 | 17/09/2026 | v3.0 | Added comments to HTML and CSS code |
+| 17/09/2026 | v3.1 | Tested website responsiveness on desktop, tablet and mobile screen sizes and added screenshot evidence to README.md
 
 
 ---
