@@ -61,14 +61,7 @@ The purpose of the Urban Threads website is to provide the company with an onlin
 - Mission
 - Vision
 - Reasons to choose Urban Threads
-
-### Products
-- Product images
-- Product names
-- Product prices
-- View Details buttons
-- Responsive product layout
-
+  
 ### Enquiry
 - Customer enquiry form
 - Product enquiries
@@ -84,6 +77,14 @@ The purpose of the Urban Threads website is to provide the company with an onlin
 - Email address
 - Business hours
 - Contact form
+
+### Products
+- Product images
+- Product names
+- Product prices
+- Product sizes
+- Add to cart links
+- Responsive product layout
 
 ### Additional Features
 - Responsive design
@@ -102,8 +103,8 @@ The purpose of the Urban Threads website is to provide the company with an onlin
 |---|---|---|
 | Planning & Wireframing | 05/08/2026 | Complete |
 | Part 1: Submit Proposal and Semantic HTML Structure | 14/08/2026 | Complete |
-| Add external CSS styling and mobile responsiveness | 16/09/2026 | Ongoing |
-| Part 2: Submit CSS and Responsive Website | 18/09/2026 | Planned |
+| Add external CSS styling and mobile responsiveness | 16/09/2026 | Complete |
+| Part 2: Submit CSS and Responsive Website | 18/09/2026 | Complete |
 | Adding JavaScript and Interactivity | TBC | Planned |
 | Part 3: Final Testing and Submission | TBC | Planned |
 
@@ -116,10 +117,11 @@ Part 1 concentrated on utilizing HTML to create the fundamental framework and co
 ### Pages Completed
 - index.html
 - about_us.html
+- services.html
 - products.html
-- enquiry.html
+- enquiries.html
 - contact.html
-
+  
 ### Structure and Semantics
 - Semantic HTML5 elements like header, nav, section, form, and footer were used.
 - Added links for navigating across the pages of the website.
@@ -164,9 +166,9 @@ In Part 2, we used CSS to enhance the Urban Threads website's visual appeal and 
 - Images are now responsive to various screen sizes.
 
 ### User Experience
-- Navigation and readability.
-- All pages now have a clear, uniform style.
-- Labels and emphasis styles are used to improve form accessibility.
+- Improved navigation and readability.
+- All pages have a clear and consistent style.
+- Labels and focus styles are used to improve form accessibility.
 
 ### Testing
 Browser developer tools were used to test the website on desktop, tablet, and mobile screens.
@@ -179,7 +181,7 @@ Browser developer tools were used to test the website on desktop, tablet, and mo
 |---|---|---|
 | 10/08/2026 | v1.0 | Initial setup, added folder structure |
 | 12/08/2026 | v1.1 | Added index.html and basic navigation |
-| 14/08/2026 | v1.2 | Added about_us.html and enquiry.html |
+| 14/08/2026 | v1.2 | Added about_us.html and enquiries.html |
 | 25/08/2026 | v1.3 | Added initial style.css |
 | 12/09/2026 | v2.0 | Corrected HTML errors from Part 1 |
 | 12/09/2026 | v2.1 | Updated style.css with typography, colours and layout styling |
