@@ -176,10 +176,10 @@ The website was tested using browser developer tools on different screen size.
 <img src="images/desktop-view.png" alt="Urban Threads Desktop View">
 
 ### Tablet View
-<img src="images/tablet-view.png" alt="Urban Threads Tablet View">
+<img src="images/Tablet-view.png" alt="Urban Threads Tablet View">
 
 ### Mobile View
-<img src="images/mobile-view.png" alt="Urban Threads Mobile View">
+<img src="images/Mobile-view.png" alt="Urban Threads Mobile View">
 
 ---
 
