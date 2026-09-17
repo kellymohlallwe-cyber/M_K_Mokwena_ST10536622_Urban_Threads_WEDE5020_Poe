@@ -174,7 +174,7 @@ In Part 2, we used CSS to enhance the Urban Threads website's visual appeal and 
 The website was tested using browser developer tools on different screen size.
 
 ### Desktop View
-<img src="images/desktop-view.png" alt="Urban Threads Desktop View">
+<img src="images/Desktop-view.png" alt="Urban Threads Desktop View">
 
 ---
 
