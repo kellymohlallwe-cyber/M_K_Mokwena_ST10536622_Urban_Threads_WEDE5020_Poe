@@ -1,107 +1,374 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
 
+    <!-- PAGE INFORMATION -->
     <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <!-- Responsive viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Urban Threads</title>
 
-    <title>Urban Threads - About Us</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- External stylesheet -->
-    <link rel="styleSheet" href="./CSS/style.css"/>
-   
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
+    <!-- ========================================
+         HEADER AND NAVIGATION
+    ======================================== -->
+    <header class="site-header">
 
-        <h1>URBAN THREADS</h1>
+        <div class="container header-inner">
 
-        <p>Clothing Store</p>
+            <a href="index.html"
+                class="logo">Urban Threads.</a>
 
-        <!-- Navigation -->
-        <nav>
+            <!-- MOBILE MENU -->
+            <input type="checkbox"
+                id="nav-toggle"
+                class="nav-toggle-input">
 
-            <a href="index.html">Home</a>
+            <label for="nav-toggle"
+                class="nav-toggle"
+                aria-label="Toggle menu">
 
-            <a href="about.html" class="active">About Us</a>
+                <i class="fa fa-bars icon-open"
+                    aria-hidden="true"></i>
 
-            <a href="products.html">Products</a>
+                <i class="fa fa-times icon-close"
+                    aria-hidden="true"></i>
 
-            <a href="enquiry.html">Enquiry</a>
+            </label>
 
-            <a href="contact.html">Contact</a>
+            <!-- NAVIGATION -->
+            <nav class="main-nav"
+                aria-label="Main navigation">
 
-        </nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+
+                    <li>
+                        <a href="about_us.html"
+                            aria-current="page">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li><a href="services.html">Services</a></li>
+
+                    <li><a href="products.html">Products</a></li>
+
+                    <li><a href="enquiries.html">Enquiries</a></li>
+
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
 
     </header>
 
 
-    <!-- Page heading -->
-    <section class="page-heading">
+    <!-- ========================================
+         MAIN CONTENT
+    ======================================== -->
+    <main>
 
-        <h2>About Us</h2>
+        <!-- ABOUT SECTION -->
+        <section class="section">
 
-        <p>Learn more about Urban Threads.</p>
+            <div class="container split">
 
-    </section>
+                <!-- ABOUT IMAGE -->
+                <div class="split-image is-square">
+
+                    <img src="./images/Store.png"
+                        alt="Urban Threads fashion store">
+
+                </div>
 
 
-    <!-- Main page content -->
-    <section class="content">
+                <!-- ABOUT INFORMATION -->
+                <div class="split-text">
 
-        <h2>Who We Are</h2>
+                    <span class="eyebrow">
+                        Our Story
+                    </span>
 
-        <p>
-            Urban Threads is a clothing store that provides stylish,
-            comfortable and affordable clothing for our customers.
+                    <h1>About Urban Threads</h1>
+
+                    <p>
+                        Urban Threads is a clothing store based in
+                        Johannesburg, Gauteng. The store was founded
+                        in 2022 with the aim of providing trendy and
+                        affordable clothing.
+                    </p>
+
+                    <p>
+                        We offer fashion for women, men and kids.
+                        Our focus is on creating a simple and
+                        enjoyable shopping experience while giving
+                        customers access to stylish clothing at
+                        affordable prices.
+                    </p>
+
+
+                    <!-- STORE STATISTICS -->
+                    <div class="stats">
+
+                        <!-- STATISTIC 1 -->
+                        <div class="stat-box">
+
+                            <i class="fa fa-calendar"
+                                aria-hidden="true"></i>
+
+                            <div class="stat-number">
+                                2022
+                            </div>
+
+                            <div class="stat-label">
+                                Founded
+                            </div>
+
+                        </div>
+
+
+                        <!-- STATISTIC 2 -->
+                        <div class="stat-box">
+
+                            <i class="fa fa-shopping-bag"
+                                aria-hidden="true"></i>
+
+                            <div class="stat-number">
+                                3
+                            </div>
+
+                            <div class="stat-label">
+                                Fashion Categories
+                            </div>
+
+                        </div>
+
+
+                        <!-- STATISTIC 3 -->
+                        <div class="stat-box">
+
+                            <i class="fa fa-heart"
+                                aria-hidden="true"></i>
+
+                            <div class="stat-number">
+                                100%
+                            </div>
+
+                            <div class="stat-label">
+                                Style & Passion
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SOCIAL MEDIA -->
+                    <h3>Follow Urban Threads</h3>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a class="icon-btn"
+                                href="#"
+                                aria-label="Facebook">
+
+                                <i class="fa fa-facebook"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="icon-btn"
+                                href="#"
+                                aria-label="Instagram">
+
+                                <i class="fa fa-instagram"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="icon-btn"
+                                href="#"
+                                aria-label="WhatsApp">
+
+                                <i class="fa fa-whatsapp"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             MISSION AND VISION
+        ======================================== -->
+        <section class="section section-alt">
+
+            <div class="container">
+
+                <div class="card-grid">
+
+                    <!-- MISSION -->
+                    <article class="card">
+
+                        <i class="fa fa-bullseye card-icon"
+                            aria-hidden="true"></i>
+
+                        <h3>Our Mission</h3>
+
+                        <p>
+                            To provide trendy, comfortable and
+                            affordable clothing that allows our
+                            customers to express their personal style.
+                        </p>
+
+                    </article>
+
+
+                    <!-- VISION -->
+                    <article class="card">
+
+                        <i class="fa fa-eye card-icon"
+                            aria-hidden="true"></i>
+
+                        <h3>Our Vision</h3>
+
+                        <p>
+                            To grow Urban Threads into a trusted
+                            fashion store that makes stylish clothing
+                            accessible to everyone.
+                        </p>
+
+                    </article>
+
+
+                    <!-- VALUES -->
+                    <article class="card">
+
+                        <i class="fa fa-heart-o card-icon"
+                            aria-hidden="true"></i>
+
+                        <h3>Our Values</h3>
+
+                        <p>
+                            Affordability, quality, customer
+                            satisfaction and confidence through
+                            fashion.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         FOOTER
+    ======================================== -->
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <div class="footer-col">
+
+                <p class="logo">Urban Threads.</p>
+
+                <ul class="icon-list">
+
+                    <li>
+                        <i class="fa fa-phone"
+                            aria-hidden="true"></i>
+                        <a href="tel:+27111234567">
+                            +27 11 123 4567
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-envelope-o"
+                            aria-hidden="true"></i>
+                        <a href="mailto:info@urbanthreads.co.za">
+                            info@urbanthreads.co.za
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-map-marker"
+                            aria-hidden="true"></i>
+                        <span>Johannesburg, Gauteng</span>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="footer-col">
+
+                <h4>Follow Us</h4>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a class="icon-btn"
+                            href="#"
+                            aria-label="Facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="icon-btn"
+                            href="#"
+                            aria-label="Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="icon-btn"
+                            href="#"
+                            aria-label="WhatsApp">
+                            <i class="fa fa-whatsapp"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Urban Threads. All rights reserved.
         </p>
-
-
-        <h2>Our Mission</h2>
-
-        <p>
-            Our mission is to provide quality fashion that allows
-            our customers to express their individual style.
-        </p>
-
-
-        <h2>Our Vision</h2>
-
-        <p>
-            Our vision is to become a trusted clothing brand known
-            for quality, affordability and excellent customer service.
-        </p>
-
-
-        <h2>Why Choose Us?</h2>
-
-        <ul>
-
-            <li>Affordable clothing</li>
-
-            <li>Quality products</li>
-
-            <li>Trendy styles</li>
-
-            <li>Friendly customer service</li>
-
-        </ul>
-
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-
-        <p>&copy; 2026 Urban Threads. All Rights Reserved.</p>
 
     </footer>
 
