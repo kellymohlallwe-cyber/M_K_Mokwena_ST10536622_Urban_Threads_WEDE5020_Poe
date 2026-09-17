@@ -1,189 +1,457 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
 
+    <!-- PAGE INFORMATION -->
     <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <!-- Responsive viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Urban Threads</title>
 
-    <title>Urban Threads - Products</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- External stylesheet -->
-       <link rel="styleSheet" href="./CSS/style.css"/>
-
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
+    <!-- ========================================
+         HEADER AND NAVIGATION
+    ======================================== -->
+    <header class="site-header">
 
-        <h1>URBAN THREADS</h1>
+        <div class="container header-inner">
 
-        <p>Clothing Store</p>
+            <a href="index.html"
+                class="logo">Urban Threads.</a>
 
-        <!-- Main navigation -->
-        <nav>
+            <!-- MOBILE MENU -->
+            <input type="checkbox"
+                id="nav-toggle"
+                class="nav-toggle-input">
 
-            <a href="index.html">Home</a>
+            <label for="nav-toggle"
+                class="nav-toggle"
+                aria-label="Toggle menu">
 
-            <a href="about.html">About Us</a>
+                <i class="fa fa-bars icon-open"></i>
+                <i class="fa fa-times icon-close"></i>
 
-            <a href="products.html" class="active">Products</a>
+            </label>
 
-            <a href="enquiry.html">Enquiry</a>
+            <!-- NAVIGATION -->
+            <nav class="main-nav">
 
-            <a href="contact.html">Contact</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
 
-        </nav>
+                    <li>
+                        <a href="products.html"
+                            aria-current="page">
+                            Products
+                        </a>
+                    </li>
+
+                    <li><a href="enquiries.html">Enquiries</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
 
     </header>
 
 
-    <!-- Products heading -->
-    <section class="page-heading">
+    <!-- ========================================
+         MAIN CONTENT
+    ======================================== -->
+    <main>
 
-        <h2>Our Products</h2>
+        <div class="container">
 
-        <p>Explore our clothing collection.</p>
+            <!-- PAGE HEADING -->
+            <header class="page-header">
 
-    </section>
+                <span class="eyebrow">
+                    Urban Threads Collection
+                </span>
 
+                <h1>Our Products</h1>
 
-    <!-- Product grid -->
-    <section class="products">
+                <p>
+                    Explore some of our trendy and affordable
+                    fashion items.
+                </p>
 
-
-        <!-- Hoodie product -->
-        <div class="product">
-
-            <div class="product-image">
-
-                <img
-                    src="images/Hoodies.jpg"
-                    alt="Urban Threads hoodie">
-
-            </div>
-
-            <h3>Hoodie</h3>
-
-            <p>R399.00</p>
-
-            <button type="button">View Details</button>
-
-        </div>
+            </header>
 
 
-        <!-- T-Shirt product -->
-        <div class="product">
+            <!-- ========================================
+                 PRODUCT SEARCH
+            ======================================== -->
+            <div class="search-pill">
 
-            <div class="product-image">
+                <label for="product-search"
+                    class="visually-hidden">
+                    Search products
+                </label>
 
-                <img
-                    src="images/T-shirt.webp"
-                    alt="Urban Threads T-Shirt">
+                <i class="fa fa-search"
+                    aria-hidden="true"></i>
 
-            </div>
-
-            <h3>T-Shirt</h3>
-
-            <p>R249.00</p>
-
-            <button type="button">View Details</button>
-
-        </div>
-
-
-        <!-- Jeans product -->
-        <div class="product">
-
-            <div class="product-image">
-
-                <img
-                    src="images/Jeans.webp"
-                    alt="Urban Threads Jeans">
+                <input type="search"
+                    id="product-search"
+                    name="q"
+                    placeholder="Search products">
 
             </div>
 
-            <h3>Jeans</h3>
 
-            <p>R499.00</p>
-
-            <button type="button">View Details</button>
-
-        </div>
+            <!-- ========================================
+                 PRODUCTS GRID
+            ======================================== -->
+            <div class="grid-4">
 
 
-        <!-- Dress product -->
-        <div class="product">
+                <!-- PRODUCT 1 -->
+                <article class="product-card">
 
-            <div class="product-image">
+                    <div class="product-image">
 
-                <img
-                    src="images/Dress.webp"
-                    alt="Urban Threads Dress">
+                        <img src="./images/Summer Dress.jpg"
+                            alt="Women's summer dress">
+
+                        <a href="enquiries.html"
+                            class="add-cart">
+
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to cart
+                        </a>
+
+                    </div>
+
+                    <div class="product-card-body">
+
+                        <h3>Summer Dress</h3>
+
+                        <div class="product-meta">
+                            <span>Size: S - XL</span>
+                            <span>R 349.99</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 2 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="./images/Denim Jeans.webp"
+                            alt="Women's denim jeans">
+
+                        <a href="enquiries.html"
+                            class="add-cart">
+
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to cart
+                        </a>
+
+                    </div>
+
+                    <div class="product-card-body">
+
+                        <h3>Denim Jeans</h3>
+
+                        <div class="product-meta">
+                            <span>Size: 28 - 36</span>
+                            <span>R 399.99</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 3 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="./images/Men's Casual Shirts.avif"
+                            alt="Men's casual shirt">
+
+                        <a href="enquiries.html"
+                            class="add-cart">
+
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to cart
+                        </a>
+
+                    </div>
+
+                    <div class="product-card-body">
+
+                        <h3>Casual Shirt</h3>
+
+                        <div class="product-meta">
+                            <span>Size: M - XXL</span>
+                            <span>R 299.99</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 4 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="./images/Urban Hoddies.jpg"
+                            alt="Urban hoodie">
+
+                        <a href="enquiries.html"
+                            class="add-cart">
+
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to cart
+                        </a>
+
+                    </div>
+
+                    <div class="product-card-body">
+
+                        <h3>Urban Hoodie</h3>
+
+                        <div class="product-meta">
+                            <span>Size: S - XL</span>
+                            <span>R 449.99</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 5 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="./images/Classic T-shirts.jpg"
+                            alt="Classic T-shirt">
+
+                        <a href="enquiries.html"
+                            class="add-cart">
+
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to cart
+                        </a>
+
+                    </div>
+
+                    <div class="product-card-body">
+
+                        <h3>Classic T-Shirt</h3>
+
+                        <div class="product-meta">
+                            <span>Size: S - XXL</span>
+                            <span>R 199.99</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 6 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="./images/Women's Fashion Top.jpg"
+                            alt="Women's fashion top">
+
+                        <a href="enquiries.html"
+                            class="add-cart">
+
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to cart
+                        </a>
+
+                    </div>
+
+                    <div class="product-card-body">
+
+                        <h3>Fashion Top</h3>
+
+                        <div class="product-meta">
+                            <span>Size: S - L</span>
+                            <span>R 249.99</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 7 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="./images/Kid's tracksuits.avif"
+                            alt="Kids tracksuit">
+
+                        <a href="enquiries.html"
+                            class="add-cart">
+
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to cart
+                        </a>
+
+                    </div>
+
+                    <div class="product-card-body">
+
+                        <h3>Kids Tracksuit</h3>
+
+                        <div class="product-meta">
+                            <span>Age: 5 - 12</span>
+                            <span>R 329.99</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 8 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="./images/Urban Fashion Jackects.avif"
+                            alt="Urban fashion jacket">
+
+                        <a href="enquiries.html"
+                            class="add-cart">
+
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to cart
+                        </a>
+
+                    </div>
+
+                    <div class="product-card-body">
+
+                        <h3>Urban Jacket</h3>
+
+                        <div class="product-meta">
+                            <span>Size: M - XL</span>
+                            <span>R 599.99</span>
+                        </div>
+
+                    </div>
+
+                </article>
 
             </div>
 
-            <h3>Dress</h3>
-
-            <p>R449.00</p>
-
-            <button type="button">View Details</button>
-
         </div>
 
+    </main>
 
-        <!-- Jacket product -->
-        <div class="product">
 
-            <div class="product-image">
+    <!-- ========================================
+         FOOTER
+    ======================================== -->
+    <footer class="site-footer">
 
-                <img
-                    src="images/Jacket.jpg"
-                    alt="Urban Threads Jacket">
+        <div class="container footer-inner">
+
+            <div class="footer-col">
+
+                <p class="logo">Urban Threads.</p>
+
+                <ul class="icon-list">
+
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:+27111234567">
+                            +27 11 123 4567
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-envelope-o"></i>
+                        <a href="mailto:info@urbanthreads.co.za">
+                            info@urbanthreads.co.za
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <span>Johannesburg, Gauteng</span>
+                    </li>
+
+                </ul>
 
             </div>
 
-            <h3>Jacket</h3>
 
-            <p>R599.00</p>
+            <div class="footer-col">
 
-            <button type="button">View Details</button>
+                <h4>Follow Us</h4>
 
-        </div>
+                <ul class="social-list">
 
+                    <li>
+                        <a class="icon-btn"
+                            href="#"
+                            aria-label="Facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
 
-        <!-- Tracksuit product -->
-        <div class="product">
+                    <li>
+                        <a class="icon-btn"
+                            href="#"
+                            aria-label="Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
 
-            <div class="product-image">
+                    <li>
+                        <a class="icon-btn"
+                            href="#"
+                            aria-label="WhatsApp">
+                            <i class="fa fa-whatsapp"></i>
+                        </a>
+                    </li>
 
-                <img
-                    src="images/Trucksuit.webp"
-                    alt="Urban Threads Tracksuit">
+                </ul>
 
             </div>
 
-            <h3>Tracksuit</h3>
-
-            <p>R549.00</p>
-
-            <button type="button">View Details</button>
-
         </div>
 
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-
-        <p>&copy; 2026 Urban Threads. All Rights Reserved.</p>
+        <p class="copyright">
+            &copy; 2026 Urban Threads. All rights reserved.
+        </p>
 
     </footer>
 
