@@ -171,7 +171,15 @@ In Part 2, we used CSS to enhance the Urban Threads website's visual appeal and 
 - Labels and focus styles are used to improve form accessibility.
 
 ### Testing
-Browser developer tools were used to test the website on desktop, tablet, and mobile screens.
+The website was tested using browser developer tools on different screen size.
+### Desktop View
+<img src="images/desktop-view.png" alt="Urban Threads Desktop View">
+
+### Tablet View
+<img src="images/tablet-view.png" alt="Urban Threads Tablet View">
+
+### Mobile View
+<img src="images/mobile-view.png" alt="Urban Threads Mobile View">
 
 ---
 
