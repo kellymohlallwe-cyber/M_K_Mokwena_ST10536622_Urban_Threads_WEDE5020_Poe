@@ -187,6 +187,15 @@ Browser developer tools were used to test the website on desktop, tablet, and mo
 | 12/09/2026 | v2.3 | Added responsive design using media queries for tablet and mobile devices |
 | 12/09/2026 | v2.4 | Added hover, focus and active styles to navigation links, buttons and form elements |
 | 12/09/2026 | v2.5 | Updated README.md with Part 2 information |
+| 17 September 2026 | Added CSS styling. | To improve the website design. |
+| 17 September 2026 | Changed the colour scheme. | To match the Urban Threads brand. |
+| 17 September 2026 | Added fashion images. | To make the website attractive. |
+| 17 September 2026 | Updated the Home page. | To improve the layout. |
+| 17 September 2026 | Updated the Products page. | To display products clearly. |
+| 17 September 2026 | Added enquiry and contact forms. | To improve communication. |
+| 17 September 2026 | Added responsive design. | To support different screen sizes. |
+| 17 September 2026 | Added navigation and hover effects. | To improve user experience. |
+| 17 September 2026 | Added comments to the code. | To keep the code organised. |
 
 ---
 
