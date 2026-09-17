@@ -9,8 +9,7 @@
     <title>Home | Urban Threads</title>
 
     <!-- FONT AWESOME ICONS -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- EXTERNAL CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -29,30 +28,22 @@
             <a href="index.html" class="logo">Urban Threads.</a>
 
             <!-- MOBILE MENU CHECKBOX -->
-            <input type="checkbox"
-                id="nav-toggle"
-                class="nav-toggle-input">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
 
             <!-- MOBILE MENU BUTTON -->
-            <label for="nav-toggle"
-                class="nav-toggle"
-                aria-label="Toggle menu">
+            <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
 
-                <i class="fa fa-bars icon-open"
-                    aria-hidden="true"></i>
+                <i class="fa fa-bars icon-open" aria-hidden="true"></i>
 
-                <i class="fa fa-times icon-close"
-                    aria-hidden="true"></i>
+                <i class="fa fa-times icon-close" aria-hidden="true"></i>
             </label>
 
             <!-- MAIN NAVIGATION -->
-            <nav class="main-nav"
-                aria-label="Main navigation">
+            <nav class="main-nav" aria-label="Main navigation">
 
                 <ul>
                     <li>
-                        <a href="index.html"
-                            aria-current="page">Home</a>
+                        <a href="index.html" aria-current="page">Home</a>
                     </li>
 
                     <li>
@@ -96,9 +87,13 @@
             <section class="hero-banner">
 
                 <!-- HERO IMAGE -->
-                <img src="./images/Hero.png"
-                    class="hero-photo"
-                    alt="Urban Threads fashion collection">
+                <picture>
+                    <source media="max-width: 700px" srcset="./images/Hero.png">
+
+                    <img src="./images/Hero.png" srcset="./images/Hero.png 1200w" sizes="100w" class="hero-photo"
+                        alt="Urban Threads fashion collection">
+                </picture>
+
 
                 <!-- DARK OVERLAY -->
                 <div class="hero-overlay">
@@ -122,20 +117,16 @@
                         <!-- HERO BUTTONS -->
                         <div class="hero-buttons">
 
-                            <a href="products.html"
-                                class="btn btn-primary">
+                            <a href="products.html" class="btn btn-primary">
 
-                                <i class="fa fa-shopping-bag"
-                                    aria-hidden="true"></i>
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
 
                                 Shop Now
                             </a>
 
-                            <a href="contact.html"
-                                class="btn btn-secondary-light">
+                            <a href="contact.html" class="btn btn-secondary-light">
 
-                                <i class="fa fa-envelope-o"
-                                    aria-hidden="true"></i>
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
 
                                 Contact Us
                             </a>
@@ -161,7 +152,9 @@
                 <!-- SUMMARY IMAGE -->
                 <div class="split-image">
 
-                    <img src="./images/Display.png"
+                    <img src="./images/Display.png" 
+                        srcset="./images/Display.png 800w"
+                        sizes="(max-width: 700px) 100vw, 50vw" 
                         alt="Urban Threads clothing display">
 
                 </div>
@@ -187,13 +180,11 @@
 
                     <div class="hero-buttons">
 
-                        <a href="about_us.html"
-                            class="btn btn-primary">
+                        <a href="about_us.html" class="btn btn-primary">
                             About Us
                         </a>
 
-                        <a href="products.html"
-                            class="btn btn-secondary">
+                        <a href="products.html" class="btn btn-secondary">
                             Our Products
                         </a>
 
@@ -230,11 +221,9 @@
                 <div class="card-grid">
 
                     <!-- WOMEN'S CARD -->
-                    <a class="card"
-                        href="products.html">
+                    <a class="card" href="products.html">
 
-                        <i class="fa fa-female card-icon"
-                            aria-hidden="true"></i>
+                        <i class="fa fa-female card-icon" aria-hidden="true"></i>
 
                         <h3>Women's Fashion</h3>
 
@@ -247,11 +236,9 @@
 
 
                     <!-- MEN'S CARD -->
-                    <a class="card"
-                        href="products.html">
+                    <a class="card" href="products.html">
 
-                        <i class="fa fa-male card-icon"
-                            aria-hidden="true"></i>
+                        <i class="fa fa-male card-icon" aria-hidden="true"></i>
 
                         <h3>Men's Fashion</h3>
 
@@ -264,11 +251,9 @@
 
 
                     <!-- KIDS' CARD -->
-                    <a class="card"
-                        href="products.html">
+                    <a class="card" href="products.html">
 
-                        <i class="fa fa-child card-icon"
-                            aria-hidden="true"></i>
+                        <i class="fa fa-child card-icon" aria-hidden="true"></i>
 
                         <h3>Kids' Fashion</h3>
 
@@ -303,8 +288,7 @@
                 <ul class="icon-list">
 
                     <li>
-                        <i class="fa fa-phone"
-                            aria-hidden="true"></i>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
 
                         <a href="tel:+27111234567">
                             +27 11 123 4567
@@ -312,8 +296,7 @@
                     </li>
 
                     <li>
-                        <i class="fa fa-envelope-o"
-                            aria-hidden="true"></i>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
 
                         <a href="mailto:info@urbanthreads.co.za">
                             info@urbanthreads.co.za
@@ -321,8 +304,7 @@
                     </li>
 
                     <li>
-                        <i class="fa fa-map-marker"
-                            aria-hidden="true"></i>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
 
                         <span>
                             Johannesburg, Gauteng
@@ -342,42 +324,30 @@
                 <ul class="social-list">
 
                     <li>
-                        <a class="icon-btn"
-                            href="#"
-                            aria-label="Facebook">
+                        <a class="icon-btn" href="#" aria-label="Facebook">
 
-                            <i class="fa fa-facebook"
-                                aria-hidden="true"></i>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a class="icon-btn"
-                            href="#"
-                            aria-label="Instagram">
+                        <a class="icon-btn" href="#" aria-label="Instagram">
 
-                            <i class="fa fa-instagram"
-                                aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a class="icon-btn"
-                            href="#"
-                            aria-label="Twitter">
+                        <a class="icon-btn" href="#" aria-label="Twitter">
 
-                            <i class="fa fa-twitter"
-                                aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a class="icon-btn"
-                            href="#"
-                            aria-label="WhatsApp">
+                        <a class="icon-btn" href="#" aria-label="WhatsApp">
 
-                            <i class="fa fa-whatsapp"
-                                aria-hidden="true"></i>
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
                         </a>
                     </li>
 
