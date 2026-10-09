@@ -208,7 +208,12 @@ The website was tested using browser developer tools on different screen size.
 | 17/09/2026 | v2.9 | Updated Enquiries and Contact Us pages |
 | 17/09/2026 | v3.0 | Added comments to HTML and CSS code |
 | 17/09/2026 | v3.1 | Tested website responsiveness on desktop, tablet and mobile screen sizes and added screenshot evidence to README.md |
-|17/09/2026/ | v3.2 | Added responsive image techniques using picture, srcset and sizes attributes |
+| 17/09/2026 | v3.2 | Added responsive image techniques using picture, srcset and sizes attributes |
+| 09/10/2026 | v3.3 | Improved default CSS styling based on Part 2 feedback by adding consistent text wrapping, form fonts and minimum input heights to improve readability and usability. |
+| 09/10/2026 | v3.4 | Improved responsive layout by adjusting container widths, form elements and product information spacing for smaller mobile screens. |
+| 09/10/2026 | v3.5 | Improved accessibility by adding visible keyboard focus outlines and support for reduced motion preferences. |
+| 09/10/2026 | v3.6 | Standardised the CSS folder and stylesheet filename to match the links used in the HTML pages and improve compatibility with case-sensitive hosting platforms. |
+| 09/10/2026 | v3.7 | Expanded the README changelog with more detailed descriptions of the changes made in response to Part 2 lecturer feedback. |
 
 ---
 
