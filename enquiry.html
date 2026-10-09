@@ -7,8 +7,11 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
+        <!-- SEO: Enquiries page description -->
+<meta name="description"
+      content="Contact Urban Threads with questions about clothing sizes, prices, products, orders and exchanges. Find answers to frequently asked questions.">
 
-    <title>Enquiries | Urban Threads</title>
+    <title>Product Enquiries & FAQs | Urban Threads</title>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet"
@@ -106,8 +109,8 @@
 
                     <h2>Enquiry Form</h2>
 
-                    <form action="#"
-                        method="post">
+                    <!-- JavaScript validates this enquiry form -->
+                   <form id="enquiry-form" action="#" method="post" novalidate>
 
                         <!-- NAME -->
                         <div class="form-group">
@@ -207,25 +210,30 @@
 
                         </div>
 
+                        <!-- PART 3: Reason for Contact hint -->
+                       <p id="enq-type-hint"
+                        class="type-hint"
+                        aria-live="polite"></p>
 
-                        <!-- MESSAGE -->
-                        <div class="form-group">
 
-                            <label for="enq-message">
-                                Message
-                            </label>
+                        
+            <!-- Customer's enquiry message -->
+             <div class="form-group">
+            <label for="enq-message">Message</label>
 
-                            <textarea id="enq-message"
-                                name="message"
-                                rows="5"
-                                placeholder="Type your message here..."></textarea>
-
-                        </div>
+          <textarea
+        id="enq-message"
+        name="message"
+        rows="5"
+        placeholder="Type your message here..."
+        required></textarea>
+             </div>
 
 
                         <!-- SEND BUTTON -->
-                        <button type="button"
-                            class="btn btn-success btn-block">
+                        <!-- Submit the enquiry for JavaScript validation -->
+                      <button type="submit"
+                      class="btn btn-success btn-block">
 
                             <i class="fa fa-paper-plane"
                                 aria-hidden="true"></i>
@@ -235,9 +243,19 @@
 
 
                         <!-- FORM NOTE -->
-                        <p class="form-note">
-                            This is currently a static prototype form.
-                        </p>
+                        
+                   <!-- JavaScript displays the enquiry response here -->
+                   <div id="enquiry-response"
+                   class="enquiry-response is-hidden"
+                   role="status"
+                   aria-live="polite"></div>
+
+                  <!-- Explain that this is a demonstration -->
+                   <p class="form-note">
+                   This enquiry form provides an instant response.
+                    It does not send or store personal information.
+                      </p>
+
 
                     </form>
 
@@ -417,7 +435,8 @@
         </p>
 
     </footer>
-
+<!-- Link the shared JavaScript file -->
+<script src="js/script.js"></script>
 </body>
 
 </html>
