@@ -6,8 +6,11 @@
     <!-- PAGE INFORMATION -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO: Products page description -->
+<meta name="description"
+      content="Browse Urban Threads clothing including dresses, jeans, hoodies, shirts and kids tracksuits. Explore trendy fashion at affordable prices.">
 
-    <title>Products | Urban Threads</title>
+    <title>Shop Clothing for Women, Men & Kids | Urban Threads</title>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -111,16 +114,53 @@
                   placeholder="Search products">
 
             </div>
+            
+<!-- ========================================
+     PART 3: PRODUCT FILTERING AND SORTING
+======================================== -->
+
+<div class="product-controls">
+
+    <!-- Filter clothes by category -->
+    <div class="filter-group">
+        <label for="category-filter">Filter by Category</label>
+
+        <select id="category-filter">
+            <option value="all">All Products</option>
+            <option value="women">Women</option>
+            <option value="men">Men</option>
+            <option value="kids">Kids</option>
+        </select>
+    </div>
+
+    <!-- Sort clothes by price -->
+    <div class="filter-group">
+        <label for="price-sort">Sort by Price</label>
+
+        <select id="price-sort">
+            <option value="default">Default Order</option>
+            <option value="low-high">Price: Low to High</option>
+            <option value="high-low">Price: High to Low</option>
+        </select>
+    </div>
+
+</div>
+
+<!-- Shows the number of matching products -->
+<p id="product-count" role="status"></p>
+
 
 
             <!-- ========================================
                  PRODUCTS GRID
             ======================================== -->
-            <div class="grid-4">
+
+            <!-- Product grid controlled by JavaScript -->
+            <div class="grid-4" id="products-grid">
 
 
                 <!-- PRODUCT 1 -->
-                <article class="product-card">
+                <article class="product-card" data-category="women" data-price="349.99">
 
                     <div class="product-image">
 
@@ -153,7 +193,7 @@
 
 
                 <!-- PRODUCT 2 -->
-                <article class="product-card">
+                <article class="product-card" data-category="women" data-price="399.99">
 
                     <div class="product-image">
 
@@ -187,7 +227,7 @@
 
 
                 <!-- PRODUCT 3 -->
-                <article class="product-card">
+                <article class="product-card" data-category="men" data-price="299.99">
 
                     <div class="product-image">
 
@@ -218,13 +258,13 @@
 
 
                 <!-- PRODUCT 4 -->
-                <article class="product-card">
+                <article class="product-card" data-category="men" data-price="399.99">
 
                     <div class="product-image">
 
                         <img src="./images/Urban Hoddies.jpg" 
                         srcset="./images/Urban Hoddies.jpg 600w"
-                            sizes="max-width: 700px 100vw, 25vw" 
+                            sizes="(max-width: 700px) 100vw, 25vw"
                             alt="Urban hoodie">
 
                         <a href="enquiries.html" 
@@ -251,7 +291,7 @@
 
 
                 <!-- PRODUCT 5 -->
-                <article class="product-card">
+                <article class="product-card" data-category="men" data-price="199.99">
 
                     <div class="product-image">
 
@@ -280,7 +320,7 @@
 
 
                 <!-- PRODUCT 6 -->
-                <article class="product-card">
+                <article class="product-card" data-category="women" data-price="249.99">
 
                     <div class="product-image">
 
@@ -311,7 +351,7 @@
 
 
                 <!-- PRODUCT 7 -->
-                <article class="product-card">
+                <article class="product-card" data-category="kids" data-price="329.99">
 
                     <div class="product-image">
 
@@ -342,7 +382,7 @@
 
 
                 <!-- PRODUCT 8 -->
-                <article class="product-card">
+                <article class="product-card" data-category="women" data-price="599.99">
 
                     <div class="product-image">
 
@@ -373,8 +413,42 @@
             </div>
 
         </div>
+        
+        <!-- Displayed when no products match the search -->
+         <p id="no-results" class="is-hidden" role="status">
+         Sorry, no products match your search.
+       </p>
+
 
     </main>
+
+    
+<!-- ========================================
+     PART 3: PRODUCT IMAGE LIGHTBOX
+======================================== -->
+
+<div id="product-lightbox"
+     class="lightbox is-hidden"
+     role="dialog"
+     aria-modal="true"
+     aria-label="Product image preview"
+     tabindex="-1">
+
+    <!-- Close the enlarged image -->
+    <button type="button"
+            id="close-lightbox"
+            class="lightbox-close"
+            aria-label="Close image">
+        &times;
+    </button>
+
+    <!-- Enlarged product image -->
+    <img id="lightbox-image"
+         src=""
+         alt="">
+
+</div>
+
 
 
     <!-- ========================================
@@ -453,6 +527,11 @@
 
     </footer>
 
+    <!-- Link the JavaScript file -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
 </body>
 
 </html>
