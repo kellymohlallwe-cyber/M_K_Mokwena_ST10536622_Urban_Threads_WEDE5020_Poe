@@ -1,15 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <!-- PAGE INFORMATION -->
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-        <!-- SEO: Enquiries page description -->
-<meta name="description"
-      content="Contact Urban Threads with questions about clothing sizes, prices, products, orders and exchanges. Find answers to frequently asked questions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO DESCRIPTION -->
+    <meta name="description"
+        content="Contact Urban Threads with questions about clothing sizes, prices, products, orders and exchanges. Find answers to frequently asked questions.">
 
     <title>Product Enquiries & FAQs | Urban Threads</title>
 
@@ -19,7 +19,6 @@
 
     <!-- EXTERNAL CSS -->
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -31,8 +30,7 @@
 
         <div class="container header-inner">
 
-            <a href="index.html"
-                class="logo">Urban Threads.</a>
+            <a href="index.html" class="logo">Urban Threads.</a>
 
             <!-- MOBILE MENU -->
             <input type="checkbox"
@@ -43,34 +41,28 @@
                 class="nav-toggle"
                 aria-label="Toggle menu">
 
-                <i class="fa fa-bars icon-open"></i>
-                <i class="fa fa-times icon-close"></i>
+                <i class="fa fa-bars icon-open" aria-hidden="true"></i>
+                <i class="fa fa-times icon-close" aria-hidden="true"></i>
 
             </label>
 
             <!-- NAVIGATION -->
             <nav class="main-nav">
-
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about_us.html">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="products.html">Products</a></li>
-
                     <li>
-                        <a href="enquiries.html"
-                            aria-current="page">
+                        <a href="enquiries.html" aria-current="page">
                             Enquiries
                         </a>
                     </li>
-
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
-
             </nav>
 
         </div>
-
     </header>
 
 
@@ -84,9 +76,7 @@
             <!-- PAGE HEADING -->
             <header class="page-header">
 
-                <span class="eyebrow">
-                    We Are Here To Help
-                </span>
+                <span class="eyebrow">We Are Here To Help</span>
 
                 <h1>Product Enquiries</h1>
 
@@ -103,25 +93,26 @@
             ======================================== -->
             <div class="form-layout">
 
-
                 <!-- ENQUIRY FORM -->
                 <section class="form-card">
 
                     <h2>Enquiry Form</h2>
 
-                    <!-- JavaScript validates this enquiry form -->
-                   <form id="enquiry-form" action="#" method="post" novalidate>
+                    <!-- JavaScript validates the form -->
+                    <form id="enquiry-form"
+                        action="#"
+                        method="post"
+                        novalidate>
 
                         <!-- NAME -->
                         <div class="form-group">
 
-                            <label for="enq-name">
-                                Name
-                            </label>
+                            <label for="enq-name">Name</label>
 
                             <input type="text"
                                 id="enq-name"
                                 name="name"
+                                autocomplete="given-name"
                                 required>
 
                         </div>
@@ -130,13 +121,12 @@
                         <!-- SURNAME -->
                         <div class="form-group">
 
-                            <label for="enq-surname">
-                                Surname
-                            </label>
+                            <label for="enq-surname">Surname</label>
 
                             <input type="text"
                                 id="enq-surname"
                                 name="surname"
+                                autocomplete="family-name"
                                 required>
 
                         </div>
@@ -145,14 +135,13 @@
                         <!-- EMAIL -->
                         <div class="form-group">
 
-                            <label for="enq-email">
-                                Email
-                            </label>
+                            <label for="enq-email">Email</label>
 
                             <input type="email"
                                 id="enq-email"
                                 name="email"
                                 placeholder="you@email.com"
+                                autocomplete="email"
                                 required>
 
                         </div>
@@ -161,6 +150,7 @@
                         <!-- CONTACT AND ENQUIRY TYPE -->
                         <div class="form-row">
 
+                            <!-- CONTACT NUMBER -->
                             <div class="form-group">
 
                                 <label for="enq-tel">
@@ -170,37 +160,38 @@
                                 <input type="tel"
                                     id="enq-tel"
                                     name="tel"
-                                    placeholder="+27 ...">
+                                    placeholder="+27 ..."
+                                    autocomplete="tel">
 
                             </div>
 
 
+                            <!-- REASON FOR CONTACT -->
                             <div class="form-group">
 
                                 <label for="enq-type">
                                     Reason for contact
                                 </label>
 
-                                <select id="enq-type"
-                                    name="type">
+                                <select id="enq-type" name="type">
 
-                                    <option>
+                                    <option value="General enquiry">
                                         General enquiry
                                     </option>
 
-                                    <option>
+                                    <option value="Product enquiry">
                                         Product enquiry
                                     </option>
 
-                                    <option>
+                                    <option value="Size enquiry">
                                         Size enquiry
                                     </option>
 
-                                    <option>
+                                    <option value="Order enquiry">
                                         Order enquiry
                                     </option>
 
-                                    <option>
+                                    <option value="Return or exchange">
                                         Return or exchange
                                     </option>
 
@@ -210,52 +201,57 @@
 
                         </div>
 
-                        <!-- PART 3: Reason for Contact hint -->
-                       <p id="enq-type-hint"
-                        class="type-hint"
-                        aria-live="polite"></p>
+
+                        <!-- REASON FOR CONTACT HINT -->
+                        <p id="enq-type-hint"
+                            class="type-hint"
+                            aria-live="polite">
+                        </p>
 
 
-                        
-            <!-- Customer's enquiry message -->
-             <div class="form-group">
-            <label for="enq-message">Message</label>
+                        <!-- CUSTOMER MESSAGE -->
+                        <div class="form-group">
 
-          <textarea
-        id="enq-message"
-        name="message"
-        rows="5"
-        placeholder="Type your message here..."
-        required></textarea>
-             </div>
+                            <label for="enq-message">Message</label>
+
+                            <textarea
+                                id="enq-message"
+                                name="message"
+                                rows="5"
+                                placeholder="Type your message here..."
+                                required></textarea>
+
+                        </div>
 
 
                         <!-- SEND BUTTON -->
-                        <!-- Submit the enquiry for JavaScript validation -->
-                      <button type="submit"
-                      class="btn btn-success btn-block">
+                        <button type="submit"
+                            class="btn btn-success btn-block">
 
                             <i class="fa fa-paper-plane"
                                 aria-hidden="true"></i>
 
                             Send Enquiry
+
                         </button>
 
 
+                        <!-- JAVASCRIPT RESPONSE -->
+                        <div id="enquiry-response"
+                            class="enquiry-response is-hidden"
+                            role="status"
+                            aria-live="polite">
+                        </div>
+
+
                         <!-- FORM NOTE -->
-                        
-                   <!-- JavaScript displays the enquiry response here -->
-                   <div id="enquiry-response"
-                   class="enquiry-response is-hidden"
-                   role="status"
-                   aria-live="polite"></div>
-
-                  <!-- Explain that this is a demonstration -->
-                   <p class="form-note">
-                   This enquiry form provides an instant response.
-                    It does not send or store personal information.
-                      </p>
-
+                        <p class="form-note">
+                            This demonstration form prepares an email
+                            using your email application. It does not
+                            automatically send or store your personal
+                            information. You must press Send in your
+                            email application to deliver your enquiry.
+                        </p>
 
                     </form>
 
@@ -274,7 +270,8 @@
                     <div class="faq-item">
 
                         <h3>
-                            <i class="fa fa-question-circle-o"></i>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
                             What sizes do you sell?
                         </h3>
 
@@ -290,7 +287,8 @@
                     <div class="faq-item">
 
                         <h3>
-                            <i class="fa fa-question-circle-o"></i>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
                             Do you sell men's clothing?
                         </h3>
 
@@ -306,7 +304,8 @@
                     <div class="faq-item">
 
                         <h3>
-                            <i class="fa fa-question-circle-o"></i>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
                             Can I ask about a product before ordering?
                         </h3>
 
@@ -322,7 +321,8 @@
                     <div class="faq-item">
 
                         <h3>
-                            <i class="fa fa-question-circle-o"></i>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
                             Can I exchange an item?
                         </h3>
 
@@ -338,7 +338,8 @@
                     <div class="faq-item">
 
                         <h3>
-                            <i class="fa fa-question-circle-o"></i>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
                             Where is Urban Threads based?
                         </h3>
 
@@ -365,6 +366,7 @@
 
         <div class="container footer-inner">
 
+            <!-- BUSINESS INFORMATION -->
             <div class="footer-col">
 
                 <p class="logo">Urban Threads.</p>
@@ -372,28 +374,34 @@
                 <ul class="icon-list">
 
                     <li>
-                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
                         <a href="tel:+27111234567">
                             +27 11 123 4567
                         </a>
                     </li>
 
                     <li>
-                        <i class="fa fa-envelope-o"></i>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
                         <a href="mailto:info@urbanthreads.co.za">
                             info@urbanthreads.co.za
                         </a>
                     </li>
 
                     <li>
-                        <i class="fa fa-map-marker"></i>
-                        <span>Johannesburg, Gauteng</span>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Johannesburg%2C+Gauteng"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Johannesburg, Gauteng
+                        </a>
                     </li>
 
                 </ul>
 
             </div>
 
+
+            <!-- SOCIAL MEDIA -->
             <div class="footer-col">
 
                 <h4>Follow Us</h4>
@@ -402,25 +410,40 @@
 
                     <li>
                         <a class="icon-btn"
-                            href="#"
+                            href="https://www.facebook.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             aria-label="Facebook">
-                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-facebook"
+                                aria-hidden="true"></i>
+
                         </a>
                     </li>
 
                     <li>
                         <a class="icon-btn"
-                            href="#"
+                            href="https://www.instagram.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             aria-label="Instagram">
-                            <i class="fa fa-instagram"></i>
+
+                            <i class="fa fa-instagram"
+                                aria-hidden="true"></i>
+
                         </a>
                     </li>
 
                     <li>
                         <a class="icon-btn"
-                            href="#"
+                            href="https://wa.me/27761428080"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             aria-label="WhatsApp">
-                            <i class="fa fa-whatsapp"></i>
+
+                            <i class="fa fa-whatsapp"
+                                aria-hidden="true"></i>
+
                         </a>
                     </li>
 
@@ -430,13 +453,17 @@
 
         </div>
 
+
+        <!-- COPYRIGHT -->
         <p class="copyright">
             &copy; 2026 Urban Threads. All rights reserved.
         </p>
 
     </footer>
-<!-- Link the shared JavaScript file -->
-<script src="js/script.js"></script>
-</body>
 
+
+    <!-- SHARED JAVASCRIPT FILE -->
+    <script src="js/script.js"></script>
+
+</body>
 </html>
