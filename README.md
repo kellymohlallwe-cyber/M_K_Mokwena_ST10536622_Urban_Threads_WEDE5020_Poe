@@ -297,43 +297,56 @@ These improvements build on the HTML and CSS work completed in Parts 1 and 2, ma
 
 | Date | Version | Change Description |
 |---|---|---|
-| 10/08/2026 | v1.0 | Initial setup, added folder structure |
-| 12/08/2026 | v1.1 | Added index.html and basic navigation |
-| 14/08/2026 | v1.2 | Added about_us.html and enquiries.html |
-| 25/08/2026 | v1.3 | Added initial style.css |
-| 12/09/2026 | v2.0 | Corrected HTML errors from Part 1 |
-| 12/09/2026 | v2.1 | Updated style.css with typography, colours and layout styling |
-| 12/09/2026 | v2.2 | Added Flexbox and CSS Grid for website layouts |
-| 12/09/2026 | v2.3 | Added responsive design using media queries for tablet and mobile devices |
-| 12/09/2026 | v2.4 | Added hover, focus and active styles to navigation links, buttons and form elements |
-| 12/09/2026 | v2.5 | Updated README.md with Part 2 information |
-| 17/09/2026 | v2.6 | Updated Urban Threads colour scheme |
-| 17/09/2026 | v2.7 | Added Urban Threads fashion images |
-| 17/09/2026 | v2.8 | Updated Home, Services and Products pages |
-| 17/09/2026 | v2.9 | Updated Enquiries and Contact Us pages |
-| 17/09/2026 | v3.0 | Added comments to HTML and CSS code |
-| 17/09/2026 | v3.1 | Tested website responsiveness on desktop, tablet and mobile screen sizes and added screenshot evidence to README.md |
-| 17/09/2026 | v3.2 | Added responsive image techniques using picture, srcset and sizes attributes |
-| 09/10/2026 | v3.3 | Improved default CSS styling based on Part 2 feedback by adding consistent text wrapping, form fonts and minimum input heights to improve readability and usability |
-| 09/10/2026 | v3.4 | Improved responsive layout by adjusting container widths, form elements and product information spacing for smaller mobile screens |
-| 09/10/2026 | v3.5 | Improved accessibility by adding visible keyboard focus outlines and support for reduced motion preferences |
-| 09/10/2026 | v3.6 | Standardised the CSS folder and stylesheet filename to match the links used in the HTML pages and improve compatibility with case-sensitive hosting platforms |
-| 09/10/2026 | v3.7 | Expanded the README changelog with more detailed descriptions of the changes made in response to Part 2 lecturer feedback |
-| 09/10/2026 | v3.8 | Added JavaScript functionality to search for clothing products by name, size and price, filter products by category and sort products by price |
-| 09/10/2026 | v3.9 | Added an interactive image lightbox that allows customers to view enlarged clothing images and close them using a button or keyboard |
-| 09/10/2026 | v4.0 | Added an interactive FAQ accordion that allows customers to expand and collapse answers to frequently asked questions |
-| 09/10/2026 | v4.1 | Added dynamic enquiry hints, JavaScript form validation, error messages and personalised responses based on the selected enquiry type |
-| 09/10/2026 | v4.2 | Improved the Contact Us form by adding message categories, JavaScript validation and functionality to prepare an email using the customer's information |
-| 09/10/2026 | v4.3 | Improved search engine optimisation by adding unique page titles, meta descriptions and descriptive image alternative text |
-| 09/10/2026 | v4.4 | Created robots.txt and a draft sitemap.xml containing the website's main pages to support search engine discovery |
-| 09/10/2026 | v4.5 | Continued testing website navigation, JavaScript functionality, forms, product filtering and responsive layouts using VS Code Live Server |
+| 10/08/2026 | v1.0 | Initial project setup and creation of the website folder structure. |
+| 12/08/2026 | v1.1 | Created `index.html` and added basic website navigation. |
+| 14/08/2026 | v1.2 | Created `about_us.html` and `enquiries.html`. |
+| 25/08/2026 | v1.3 | Created the initial `style.css` stylesheet. |
+| 12/09/2026 | v2.0 | Corrected HTML errors identified during Part 1. |
+| 12/09/2026 | v2.1 | Updated `style.css` with typography, colours and layout styling. |
+| 12/09/2026 | v2.2 | Implemented Flexbox and CSS Grid to improve website layouts. |
+| 12/09/2026 | v2.3 | Added responsive design using media queries for tablet and mobile devices. |
+| 12/09/2026 | v2.4 | Added hover, focus and active styles to navigation links, buttons and form elements. |
+| 12/09/2026 | v2.5 | Updated `README.md` with Part 2 project information. |
+| 17/09/2026 | v2.6 | Updated the Urban Threads colour scheme to create a consistent visual appearance. |
+| 17/09/2026 | v2.7 | Added fashion images to improve the website's visual presentation. |
+| 17/09/2026 | v2.8 | Updated the Home, Services and Products pages. |
+| 17/09/2026 | v2.9 | Updated the Enquiries and Contact Us pages. |
+| 17/09/2026 | v3.0 | Added comments to HTML and CSS code to improve code readability. |
+| 17/09/2026 | v3.1 | Tested website responsiveness on desktop, tablet and mobile screen sizes and added screenshot evidence to `README.md`. |
+| 17/09/2026 | v3.2 | Added responsive image techniques using the `picture`, `srcset` and `sizes` attributes. |
+| 09/10/2026 | v3.3 | Improved default CSS styling based on Part 2 feedback by adding consistent text wrapping, form fonts and minimum input heights to improve readability and usability. |
+| 09/10/2026 | v3.4 | Improved responsive layouts by adjusting container widths, form elements and product information spacing for smaller mobile screens. |
+| 09/10/2026 | v3.5 | Improved accessibility by adding visible keyboard focus outlines and support for reduced-motion preferences. |
+| 09/10/2026 | v3.6 | Standardised the CSS folder and stylesheet filename to match the links used in the HTML pages and improve compatibility with case-sensitive hosting platforms. |
+| 09/10/2026 | v3.7 | Expanded the README changelog with detailed descriptions of changes made in response to Part 2 lecturer feedback. |
+| 09/10/2026 | v3.8 | Added JavaScript functionality to search for clothing products, filter products by category and sort products by price. |
+| 09/10/2026 | v3.9 | Added an interactive image lightbox that allows customers to view enlarged clothing images and close them using a button or keyboard. |
+| 09/10/2026 | v4.0 | Added an interactive FAQ accordion that allows customers to expand and collapse answers to frequently asked questions. |
+| 09/10/2026 | v4.1 | Added dynamic enquiry hints, JavaScript form validation, error messages and personalised responses based on the selected enquiry type. |
+| 09/10/2026 | v4.2 | Improved the Contact Us form by adding message categories, JavaScript validation and functionality to prepare an email using the customer's information. |
+| 09/10/2026 | v4.3 | Improved search engine optimisation (SEO) by adding unique page titles, meta descriptions and descriptive image alternative text. |
+| 09/10/2026 | v4.4 | Created `robots.txt` and a draft `sitemap.xml` containing the website's main pages to support search engine discovery. |
+| 09/10/2026 | v4.5 | Continued testing website navigation, JavaScript functionality, forms, product filtering and responsive layouts using VS Code Live Server. |
+| 02/11/2026 | v4.6 | Reviewed and improved website HTML structure, navigation links, image attributes and page content for better consistency and usability. |
+| 02/11/2026 | v4.7 | Improved website navigation by reviewing internal links and correcting links to the Home, About Us, Services, Products, Enquiries and Contact Us pages. |
+| 02/11/2026 | v4.8 | Reviewed website accessibility and image loading by checking alternative text, lazy loading and keyboard navigation support. |
+| 02/11/2026 | v4.9 | Reviewed website performance and responsiveness across desktop, tablet and mobile screen sizes. |
+| 02/11/2026 | v5.0 | Enabled GitHub Pages to publish the Urban Threads website online using HTTPS. |
+| 02/11/2026 | v5.1 | Reviewed website security, SEO settings and search engine crawling files, including `robots.txt` and `sitemap.xml`. |
+| 02/11/2026 | v5.2 | Continued website testing and identified GitHub Pages file-not-found errors affecting the About Us and Enquiries pages for further correction. |
 ---
 
 ## References
 
-GitHub. (2026). *GitHub Pages*. Available at: https://pages.github.com/ (Accessed: 6 September 2026).
-
 Google Fonts. (2026). *Google Fonts*. Available at: https://fonts.google.com/ (Accessed: 6 September 2026).
+
+GitHub. (2026). *GitHub Pages documentation*. Available at: https://docs.github.com/en/pages (Accessed: 2 November 2026).
+
+Google Search Central. (2026). *Introduction to robots.txt*. Available at: https://developers.google.com/search/docs/crawling-indexing/robots/intro (Accessed: 2 November 2026).
+
+Google Search Central. (2026). *Learn about sitemaps*. Available at: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview (Accessed: 2 November 2026).
+
+Leaflet. (2026). *Leaflet: An open-source JavaScript library for mobile-friendly interactive maps*. Available at: https://leafletjs.com/ (Accessed: 2 November 2026).
 
 MDN Web Docs. (2026). *CSS: Cascading Style Sheets*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: 6 September 2026).
 
@@ -341,11 +354,23 @@ MDN Web Docs. (2026). *CSS Flexible Box Layout*. Available at: https://developer
 
 MDN Web Docs. (2026). *CSS Grid Layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout (Accessed: 6 September 2026).
 
+MDN Web Docs. (2026). *HTML reference*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference (Accessed: 2 November 2026).
+
+MDN Web Docs. (2026). *JavaScript Guide*. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide (Accessed: 2 November 2026).
+
 MDN Web Docs. (2026). *Using Media Queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries (Accessed: 6 September 2026).
+
+MDN Web Docs. (2026). *The meta element*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta (Accessed: 2 November 2026).
 
 W3Schools. (2026). *CSS Tutorial*. Available at: https://www.w3schools.com/css/ (Accessed: 6 September 2026).
 
+W3Schools. (2026). *HTML Tutorial*. Available at: https://www.w3schools.com/html/ (Accessed: 2 November 2026).
+
+W3Schools. (2026). *JavaScript Tutorial*. Available at: https://www.w3schools.com/js/ (Accessed: 2 November 2026).
+
 W3Schools. (2026). *Responsive Web Design*. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (Accessed: 6 September 2026).
+
+World Wide Web Consortium (W3C). (2026). *Web Content Accessibility Guidelines (WCAG) 2.2*. Available at: https://www.w3.org/TR/WCAG22/ (Accessed: 2 November 2026).
 
 ZADNA. (2026). *ZA Domain Name Authority*. Available at: https://www.zadna.org.za/ (Accessed: 6 September 2026).
 
