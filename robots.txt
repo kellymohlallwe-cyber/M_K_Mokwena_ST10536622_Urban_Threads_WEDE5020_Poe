@@ -1,7 +1,4 @@
-# Urban Threads Clothing Store
-# Robots.txt
-
 User-agent: *
 Allow: /
 
-Sitemap: https://www.yourdomain.co.za/sitemap.xml
+Sitemap: https://kellymohlallwe-cyber.github.io/M_K_Mokwena_ST10536622_Urban_Threads_WEDE5020_Poe/sitemap.xml
