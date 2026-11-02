@@ -4,8 +4,6 @@
 
 # Project Title: Urban Threads
 
-## My Project – Urban Threads
-
 Customers can peruse stylish and reasonably priced apparel for men, women, and children on the Urban Threads apparel Store website. The project's main goal is to employ HTML and CSS to create a straightforward, appealing, and easy-to-use shopping experience.
 
 ---
