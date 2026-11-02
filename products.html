@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,14 +7,16 @@
     <!-- PAGE INFORMATION -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO: Products page description -->
-<meta name="description"
-      content="Browse Urban Threads clothing including dresses, jeans, hoodies, shirts and kids tracksuits. Explore trendy fashion at affordable prices.">
 
-    <title>Shop Clothing for Women, Men & Kids | Urban Threads</title>
+    <!-- SEO: PRODUCTS PAGE DESCRIPTION -->
+    <meta name="description"
+        content="Browse Urban Threads clothing including dresses, jeans, hoodies, shirts and kids tracksuits. Explore trendy fashion at affordable prices.">
+
+    <title>Shop Clothing for Women, Men &amp; Kids | Urban Threads</title>
 
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- EXTERNAL CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -25,43 +28,60 @@
     <!-- ========================================
          HEADER AND NAVIGATION
     ======================================== -->
+
     <header class="site-header">
 
         <div class="container header-inner">
 
+            <!-- WEBSITE LOGO -->
             <a href="index.html" class="logo">Urban Threads.</a>
 
             <!-- MOBILE MENU -->
             <input type="checkbox"
-             id="nav-toggle"
-             class="nav-toggle-input">
+                id="nav-toggle"
+                class="nav-toggle-input">
 
-            <label for="nav-toggle" 
-            class="nav-toggle" 
-            aria-label="Toggle menu">
+            <label for="nav-toggle"
+                class="nav-toggle"
+                aria-label="Toggle menu">
 
-                <i class="fa fa-bars icon-open"></i>
-                <i class="fa fa-times icon-close"></i>
+                <i class="fa fa-bars icon-open" aria-hidden="true"></i>
+
+                <i class="fa fa-times icon-close" aria-hidden="true"></i>
 
             </label>
 
             <!-- NAVIGATION -->
-            <nav class="main-nav">
+            <nav class="main-nav" aria-label="Main navigation">
 
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
 
                     <li>
-                        <a href="products.html"
-                         aria-current="page">
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about_us.html">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="products.html" aria-current="page">
                             Products
                         </a>
                     </li>
 
-                    <li><a href="enquiries.html">Enquiries</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li>
+                        <a href="enquiries.html">Enquiries</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+
                 </ul>
 
             </nav>
@@ -74,6 +94,7 @@
     <!-- ========================================
          MAIN CONTENT
     ======================================== -->
+
     <main>
 
         <div class="container">
@@ -98,82 +119,95 @@
             <!-- ========================================
                  PRODUCT SEARCH
             ======================================== -->
+
             <div class="search-pill">
 
-                <label for="product-search" 
-                class="visually-hidden">
+                <label for="product-search" class="visually-hidden">
                     Search products
                 </label>
 
-                <i class="fa fa-search" 
-                aria-hidden="true"></i>
+                <i class="fa fa-search" aria-hidden="true"></i>
 
-                <input type="search" 
-                id="product-search"
-                 name="q"
-                  placeholder="Search products">
+                <input type="search"
+                    id="product-search"
+                    name="q"
+                    placeholder="Search products">
 
             </div>
-            
-<!-- ========================================
-     PART 3: PRODUCT FILTERING AND SORTING
-======================================== -->
 
-<div class="product-controls">
 
-    <!-- Filter clothes by category -->
-    <div class="filter-group">
-        <label for="category-filter">Filter by Category</label>
+            <!-- ========================================
+                 PRODUCT FILTERING AND SORTING
+            ======================================== -->
 
-        <select id="category-filter">
-            <option value="all">All Products</option>
-            <option value="women">Women</option>
-            <option value="men">Men</option>
-            <option value="kids">Kids</option>
-        </select>
-    </div>
+            <div class="product-controls">
 
-    <!-- Sort clothes by price -->
-    <div class="filter-group">
-        <label for="price-sort">Sort by Price</label>
+                <!-- FILTER BY CATEGORY -->
+                <div class="filter-group">
 
-        <select id="price-sort">
-            <option value="default">Default Order</option>
-            <option value="low-high">Price: Low to High</option>
-            <option value="high-low">Price: High to Low</option>
-        </select>
-    </div>
+                    <label for="category-filter">
+                        Filter by Category
+                    </label>
 
-</div>
+                    <select id="category-filter">
 
-<!-- Shows the number of matching products -->
-<p id="product-count" role="status"></p>
+                        <option value="all">All Products</option>
+                        <option value="women">Women</option>
+                        <option value="men">Men</option>
+                        <option value="kids">Kids</option>
 
+                    </select>
+
+                </div>
+
+
+                <!-- SORT BY PRICE -->
+                <div class="filter-group">
+
+                    <label for="price-sort">
+                        Sort by Price
+                    </label>
+
+                    <select id="price-sort">
+
+                        <option value="default">Default Order</option>
+                        <option value="low-high">Price: Low to High</option>
+                        <option value="high-low">Price: High to Low</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT COUNT -->
+            <p id="product-count" role="status" aria-live="polite"></p>
 
 
             <!-- ========================================
                  PRODUCTS GRID
             ======================================== -->
 
-            <!-- Product grid controlled by JavaScript -->
             <div class="grid-4" id="products-grid">
 
 
-                <!-- PRODUCT 1 -->
-                <article class="product-card" data-category="women" data-price="349.99">
+                <!-- PRODUCT 1: SUMMER DRESS -->
+                <article class="product-card"
+                    data-category="women"
+                    data-price="349.99">
 
                     <div class="product-image">
 
                         <img src="./images/Summer Dress.jpg"
-                         srcset="./images/Summer Dress.jpg 600w"
-                            sizes="(max-width: 700px) 100vw, 25vw" 
                             alt="Women's summer dress">
 
-                        <a href="enquiries.html"
-                         class="add-cart">
+                        <a href="enquiries.html" class="add-cart">
 
-                            <i class="fa fa-shopping-cart"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
                             Add to cart
+
                         </a>
 
                     </div>
@@ -183,8 +217,11 @@
                         <h3>Summer Dress</h3>
 
                         <div class="product-meta">
+
                             <span>Size: S - XL</span>
+
                             <span>R 349.99</span>
+
                         </div>
 
                     </div>
@@ -192,22 +229,22 @@
                 </article>
 
 
-                <!-- PRODUCT 2 -->
-                <article class="product-card" data-category="women" data-price="399.99">
+                <!-- PRODUCT 2: DENIM JEANS -->
+                <article class="product-card"
+                    data-category="women"
+                    data-price="399.99">
 
                     <div class="product-image">
 
-                        <img src="./images/Denim Jeans.webp" 
-                        srcset="./images/Denim Jeans.webp 600w"
-                         sizes="(max-width: 559px) 100vw,
-                                   (max-width: 899px) 50vw, 25vw"
-                                    alt="Women's denim jeans">
+                        <img src="./images/Denim Jeans.webp"
+                            alt="Women's denim jeans">
 
-                        <a href="enquiries.html"
-                         class="add-cart">
+                        <a href="enquiries.html" class="add-cart">
 
-                            <i class="fa fa-shopping-cart"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
                             Add to cart
+
                         </a>
 
                     </div>
@@ -217,8 +254,11 @@
                         <h3>Denim Jeans</h3>
 
                         <div class="product-meta">
+
                             <span>Size: 28 - 36</span>
+
                             <span>R 399.99</span>
+
                         </div>
 
                     </div>
@@ -226,19 +266,22 @@
                 </article>
 
 
-                <!-- PRODUCT 3 -->
-                <article class="product-card" data-category="men" data-price="299.99">
+                <!-- PRODUCT 3: CASUAL SHIRT -->
+                <article class="product-card"
+                    data-category="men"
+                    data-price="299.99">
 
                     <div class="product-image">
 
-                        <img src="./images/Men's Casual Shirts.avif" 
-                        alt="Men's casual shirt">
+                        <img src="./images/Men's Casual Shirts.avif"
+                            alt="Men's casual shirt">
 
-                        <a href="enquiries.html"
-                         class="add-cart">
+                        <a href="enquiries.html" class="add-cart">
 
-                            <i class="fa fa-shopping-cart"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
                             Add to cart
+
                         </a>
 
                     </div>
@@ -248,8 +291,11 @@
                         <h3>Casual Shirt</h3>
 
                         <div class="product-meta">
+
                             <span>Size: M - XXL</span>
+
                             <span>R 299.99</span>
+
                         </div>
 
                     </div>
@@ -257,21 +303,22 @@
                 </article>
 
 
-                <!-- PRODUCT 4 -->
-                <article class="product-card" data-category="men" data-price="399.99">
+                <!-- PRODUCT 4: URBAN HOODIE -->
+                <article class="product-card"
+                    data-category="men"
+                    data-price="449.99">
 
                     <div class="product-image">
 
-                        <img src="./images/Urban Hoddies.jpg" 
-                        srcset="./images/Urban Hoddies.jpg 600w"
-                            sizes="(max-width: 700px) 100vw, 25vw"
+                        <img src="./images/Urban Hoddies.jpg"
                             alt="Urban hoodie">
 
-                        <a href="enquiries.html" 
-                        class="add-cart">
+                        <a href="enquiries.html" class="add-cart">
 
-                            <i class="fa fa-shopping-cart"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
                             Add to cart
+
                         </a>
 
                     </div>
@@ -281,8 +328,11 @@
                         <h3>Urban Hoodie</h3>
 
                         <div class="product-meta">
+
                             <span>Size: S - XL</span>
+
                             <span>R 449.99</span>
+
                         </div>
 
                     </div>
@@ -290,17 +340,22 @@
                 </article>
 
 
-                <!-- PRODUCT 5 -->
-                <article class="product-card" data-category="men" data-price="199.99">
+                <!-- PRODUCT 5: CLASSIC T-SHIRT -->
+                <article class="product-card"
+                    data-category="men"
+                    data-price="199.99">
 
                     <div class="product-image">
 
-                        <img src="./images/Classic T-shirts.jpg" alt="Classic T-shirt">
+                        <img src="./images/Classic T-shirts.jpg"
+                            alt="Classic T-shirt">
 
                         <a href="enquiries.html" class="add-cart">
 
-                            <i class="fa fa-shopping-cart"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
                             Add to cart
+
                         </a>
 
                     </div>
@@ -310,8 +365,11 @@
                         <h3>Classic T-Shirt</h3>
 
                         <div class="product-meta">
+
                             <span>Size: S - XXL</span>
+
                             <span>R 199.99</span>
+
                         </div>
 
                     </div>
@@ -319,19 +377,22 @@
                 </article>
 
 
-                <!-- PRODUCT 6 -->
-                <article class="product-card" data-category="women" data-price="249.99">
+                <!-- PRODUCT 6: FASHION TOP -->
+                <article class="product-card"
+                    data-category="women"
+                    data-price="249.99">
 
                     <div class="product-image">
 
-                        <img src="./images/Women's Fashion Top.jpg" 
-                        alt="Women's fashion top">
+                        <img src="./images/Women's Fashion Top.jpg"
+                            alt="Women's fashion top">
 
-                        <a href="enquiries.html" 
-                        class="add-cart">
+                        <a href="enquiries.html" class="add-cart">
 
-                            <i class="fa fa-shopping-cart"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
                             Add to cart
+
                         </a>
 
                     </div>
@@ -341,8 +402,11 @@
                         <h3>Fashion Top</h3>
 
                         <div class="product-meta">
+
                             <span>Size: S - L</span>
+
                             <span>R 249.99</span>
+
                         </div>
 
                     </div>
@@ -350,19 +414,22 @@
                 </article>
 
 
-                <!-- PRODUCT 7 -->
-                <article class="product-card" data-category="kids" data-price="329.99">
+                <!-- PRODUCT 7: KIDS TRACKSUIT -->
+                <article class="product-card"
+                    data-category="kids"
+                    data-price="329.99">
 
                     <div class="product-image">
 
                         <img src="./images/Kid's tracksuits.avif"
-                         alt="Kids tracksuit">
+                            alt="Kids tracksuit">
 
-                        <a href="enquiries.html" 
-                        class="add-cart">
+                        <a href="enquiries.html" class="add-cart">
 
-                            <i class="fa fa-shopping-cart"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
                             Add to cart
+
                         </a>
 
                     </div>
@@ -372,8 +439,11 @@
                         <h3>Kids Tracksuit</h3>
 
                         <div class="product-meta">
+
                             <span>Age: 5 - 12</span>
+
                             <span>R 329.99</span>
+
                         </div>
 
                     </div>
@@ -381,18 +451,22 @@
                 </article>
 
 
-                <!-- PRODUCT 8 -->
-                <article class="product-card" data-category="women" data-price="599.99">
+                <!-- PRODUCT 8: URBAN JACKET -->
+                <article class="product-card"
+                    data-category="women"
+                    data-price="599.99">
 
                     <div class="product-image">
 
                         <img src="./images/Urban Fashion Jackects.avif"
-                         alt="Urban fashion jacket">
+                            alt="Urban fashion jacket">
 
                         <a href="enquiries.html" class="add-cart">
 
-                            <i class="fa fa-shopping-cart"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
                             Add to cart
+
                         </a>
 
                     </div>
@@ -402,8 +476,11 @@
                         <h3>Urban Jacket</h3>
 
                         <div class="product-meta">
+
                             <span>Size: M - XL</span>
+
                             <span>R 599.99</span>
+
                         </div>
 
                     </div>
@@ -412,75 +489,98 @@
 
             </div>
 
-        </div>
-        
-        <!-- Displayed when no products match the search -->
-         <p id="no-results" class="is-hidden" role="status">
-         Sorry, no products match your search.
-       </p>
 
+            <!-- NO RESULTS MESSAGE -->
+            <p id="no-results" class="is-hidden" role="status">
+
+                Sorry, no products match your search.
+
+            </p>
+
+        </div>
 
     </main>
 
-    
-<!-- ========================================
-     PART 3: PRODUCT IMAGE LIGHTBOX
-======================================== -->
 
-<div id="product-lightbox"
-     class="lightbox is-hidden"
-     role="dialog"
-     aria-modal="true"
-     aria-label="Product image preview"
-     tabindex="-1">
+    <!-- ========================================
+         PRODUCT IMAGE LIGHTBOX
+    ======================================== -->
 
-    <!-- Close the enlarged image -->
-    <button type="button"
+    <div id="product-lightbox"
+        class="lightbox is-hidden"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Product image preview"
+        tabindex="-1">
+
+        <!-- CLOSE BUTTON -->
+        <button type="button"
             id="close-lightbox"
             class="lightbox-close"
             aria-label="Close image">
-        &times;
-    </button>
 
-    <!-- Enlarged product image -->
-    <img id="lightbox-image"
-         src=""
-         alt="">
+            &times;
 
-</div>
+        </button>
 
+        <!-- ENLARGED PRODUCT IMAGE -->
+        <img id="lightbox-image"
+            src=""
+            alt="">
+
+    </div>
 
 
     <!-- ========================================
          FOOTER
     ======================================== -->
+
     <footer class="site-footer">
 
         <div class="container footer-inner">
 
+            <!-- CONTACT DETAILS -->
             <div class="footer-col">
 
                 <p class="logo">Urban Threads.</p>
 
                 <ul class="icon-list">
 
+                    <!-- PHONE -->
                     <li>
-                        <i class="fa fa-phone"></i>
+
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+
                         <a href="tel:+27111234567">
                             +27 11 123 4567
                         </a>
+
                     </li>
 
+                    <!-- EMAIL -->
                     <li>
-                        <i class="fa fa-envelope-o"></i>
+
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
                         <a href="mailto:info@urbanthreads.co.za">
                             info@urbanthreads.co.za
                         </a>
+
                     </li>
 
+                    <!-- LOCATION -->
                     <li>
-                        <i class="fa fa-map-marker"></i>
-                        <span>Johannesburg, Gauteng</span>
+
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Johannesburg%2C+Gauteng"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            Johannesburg, Gauteng
+
+                        </a>
+
                     </li>
 
                 </ul>
@@ -488,31 +588,56 @@
             </div>
 
 
+            <!-- SOCIAL MEDIA -->
             <div class="footer-col">
 
                 <h4>Follow Us</h4>
 
                 <ul class="social-list">
 
+                    <!-- FACEBOOK -->
                     <li>
-                        <a class="icon-btn" href="#" 
-                        aria-label="Facebook">
-                            <i class="fa fa-facebook"></i>
+
+                        <a class="icon-btn"
+                            href="https://www.facebook.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Facebook">
+
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+
                         </a>
+
                     </li>
 
+                    <!-- INSTAGRAM -->
                     <li>
-                        <a class="icon-btn" href="#"
-                         aria-label="Instagram">
-                            <i class="fa fa-instagram"></i>
+
+                        <a class="icon-btn"
+                            href="https://www.instagram.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Instagram">
+
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+
                         </a>
+
                     </li>
 
+                    <!-- WHATSAPP -->
                     <li>
-                        <a class="icon-btn" href="#" 
-                        aria-label="WhatsApp">
-                            <i class="fa fa-whatsapp"></i>
+
+                        <a class="icon-btn"
+                            href="https://wa.me/27761428080"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="WhatsApp">
+
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+
                         </a>
+
                     </li>
 
                 </ul>
@@ -521,17 +646,18 @@
 
         </div>
 
+
+        <!-- COPYRIGHT -->
         <p class="copyright">
             &copy; 2026 Urban Threads. All rights reserved.
         </p>
 
     </footer>
 
-    <!-- Link the JavaScript file -->
-<script src="js/script.js"></script>
 
-</body>
-</html>
+    <!-- JAVASCRIPT FILE -->
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
