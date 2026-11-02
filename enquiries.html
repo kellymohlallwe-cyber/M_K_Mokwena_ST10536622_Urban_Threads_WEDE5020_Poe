@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- PAGE INFORMATION -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO DESCRIPTION -->
+    <meta name="description"
+        content="Contact Urban Threads with questions about clothing sizes, prices, products, orders and exchanges. Find answers to frequently asked questions.">
+
+    <title>Product Enquiries & FAQs | Urban Threads</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ========================================
+         HEADER AND NAVIGATION
+    ======================================== -->
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+            <a href="index.html" class="logo">Urban Threads.</a>
+
+            <!-- MOBILE MENU -->
+            <input type="checkbox"
+                id="nav-toggle"
+                class="nav-toggle-input">
+
+            <label for="nav-toggle"
+                class="nav-toggle"
+                aria-label="Toggle menu">
+
+                <i class="fa fa-bars icon-open" aria-hidden="true"></i>
+                <i class="fa fa-times icon-close" aria-hidden="true"></i>
+
+            </label>
+
+            <!-- NAVIGATION -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li>
+                        <a href="enquiries.html" aria-current="page">
+                            Enquiries
+                        </a>
+                    </li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ========================================
+         MAIN CONTENT
+    ======================================== -->
+    <main>
+
+        <div class="container">
+
+            <!-- PAGE HEADING -->
+            <header class="page-header">
+
+                <span class="eyebrow">We Are Here To Help</span>
+
+                <h1>Product Enquiries</h1>
+
+                <p>
+                    Ask us about a product, size, order or
+                    anything else you would like to know.
+                </p>
+
+            </header>
+
+
+            <!-- ========================================
+                 FORM AND FAQ LAYOUT
+            ======================================== -->
+            <div class="form-layout">
+
+                <!-- ENQUIRY FORM -->
+                <section class="form-card">
+
+                    <h2>Enquiry Form</h2>
+
+                    <!-- JavaScript validates the form -->
+                    <form id="enquiry-form"
+                        action="#"
+                        method="post"
+                        novalidate>
+
+                        <!-- NAME -->
+                        <div class="form-group">
+
+                            <label for="enq-name">Name</label>
+
+                            <input type="text"
+                                id="enq-name"
+                                name="name"
+                                autocomplete="given-name"
+                                required>
+
+                        </div>
+
+
+                        <!-- SURNAME -->
+                        <div class="form-group">
+
+                            <label for="enq-surname">Surname</label>
+
+                            <input type="text"
+                                id="enq-surname"
+                                name="surname"
+                                autocomplete="family-name"
+                                required>
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+                        <div class="form-group">
+
+                            <label for="enq-email">Email</label>
+
+                            <input type="email"
+                                id="enq-email"
+                                name="email"
+                                placeholder="you@email.com"
+                                autocomplete="email"
+                                required>
+
+                        </div>
+
+
+                        <!-- CONTACT AND ENQUIRY TYPE -->
+                        <div class="form-row">
+
+                            <!-- CONTACT NUMBER -->
+                            <div class="form-group">
+
+                                <label for="enq-tel">
+                                    Contact Number
+                                </label>
+
+                                <input type="tel"
+                                    id="enq-tel"
+                                    name="tel"
+                                    placeholder="+27 ..."
+                                    autocomplete="tel">
+
+                            </div>
+
+
+                            <!-- REASON FOR CONTACT -->
+                            <div class="form-group">
+
+                                <label for="enq-type">
+                                    Reason for contact
+                                </label>
+
+                                <select id="enq-type" name="type">
+
+                                    <option value="General enquiry">
+                                        General enquiry
+                                    </option>
+
+                                    <option value="Product enquiry">
+                                        Product enquiry
+                                    </option>
+
+                                    <option value="Size enquiry">
+                                        Size enquiry
+                                    </option>
+
+                                    <option value="Order enquiry">
+                                        Order enquiry
+                                    </option>
+
+                                    <option value="Return or exchange">
+                                        Return or exchange
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- REASON FOR CONTACT HINT -->
+                        <p id="enq-type-hint"
+                            class="type-hint"
+                            aria-live="polite">
+                        </p>
+
+
+                        <!-- CUSTOMER MESSAGE -->
+                        <div class="form-group">
+
+                            <label for="enq-message">Message</label>
+
+                            <textarea
+                                id="enq-message"
+                                name="message"
+                                rows="5"
+                                placeholder="Type your message here..."
+                                required></textarea>
+
+                        </div>
+
+
+                        <!-- SEND BUTTON -->
+                        <button type="submit"
+                            class="btn btn-success btn-block">
+
+                            <i class="fa fa-paper-plane"
+                                aria-hidden="true"></i>
+
+                            Send Enquiry
+
+                        </button>
+
+
+                        <!-- JAVASCRIPT RESPONSE -->
+                        <div id="enquiry-response"
+                            class="enquiry-response is-hidden"
+                            role="status"
+                            aria-live="polite">
+                        </div>
+
+
+                        <!-- FORM NOTE -->
+                        <p class="form-note">
+                            This demonstration form prepares an email
+                            using your email application. It does not
+                            automatically send or store your personal
+                            information. You must press Send in your
+                            email application to deliver your enquiry.
+                        </p>
+
+                    </form>
+
+                </section>
+
+
+                <!-- ========================================
+                     FREQUENTLY ASKED QUESTIONS
+                ======================================== -->
+                <section class="info-card">
+
+                    <h2>FAQs</h2>
+
+
+                    <!-- FAQ 1 -->
+                    <div class="faq-item">
+
+                        <h3>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
+                            What sizes do you sell?
+                        </h3>
+
+                        <p>
+                            Sizes depend on the clothing item.
+                            Available sizes are shown with each product.
+                        </p>
+
+                    </div>
+
+
+                    <!-- FAQ 2 -->
+                    <div class="faq-item">
+
+                        <h3>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
+                            Do you sell men's clothing?
+                        </h3>
+
+                        <p>
+                            Yes. Urban Threads offers clothing
+                            for women, men and kids.
+                        </p>
+
+                    </div>
+
+
+                    <!-- FAQ 3 -->
+                    <div class="faq-item">
+
+                        <h3>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
+                            Can I ask about a product before ordering?
+                        </h3>
+
+                        <p>
+                            Yes. Use our enquiry form to ask about
+                            sizes, prices or other product information.
+                        </p>
+
+                    </div>
+
+
+                    <!-- FAQ 4 -->
+                    <div class="faq-item">
+
+                        <h3>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
+                            Can I exchange an item?
+                        </h3>
+
+                        <p>
+                            Customers can contact Urban Threads
+                            for information about eligible exchanges.
+                        </p>
+
+                    </div>
+
+
+                    <!-- FAQ 5 -->
+                    <div class="faq-item">
+
+                        <h3>
+                            <i class="fa fa-question-circle-o"
+                                aria-hidden="true"></i>
+                            Where is Urban Threads based?
+                        </h3>
+
+                        <p>
+                            Urban Threads is based in
+                            Johannesburg, Gauteng.
+                        </p>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ========================================
+         FOOTER
+    ======================================== -->
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <!-- BUSINESS INFORMATION -->
+            <div class="footer-col">
+
+                <p class="logo">Urban Threads.</p>
+
+                <ul class="icon-list">
+
+                    <li>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel:+27111234567">
+                            +27 11 123 4567
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <a href="mailto:info@urbanthreads.co.za">
+                            info@urbanthreads.co.za
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Johannesburg%2C+Gauteng"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Johannesburg, Gauteng
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- SOCIAL MEDIA -->
+            <div class="footer-col">
+
+                <h4>Follow Us</h4>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a class="icon-btn"
+                            href="https://www.facebook.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Facebook">
+
+                            <i class="fa fa-facebook"
+                                aria-hidden="true"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="icon-btn"
+                            href="https://www.instagram.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Instagram">
+
+                            <i class="fa fa-instagram"
+                                aria-hidden="true"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="icon-btn"
+                            href="https://wa.me/27761428080"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="WhatsApp">
+
+                            <i class="fa fa-whatsapp"
+                                aria-hidden="true"></i>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+        <p class="copyright">
+            &copy; 2026 Urban Threads. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- SHARED JAVASCRIPT FILE -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

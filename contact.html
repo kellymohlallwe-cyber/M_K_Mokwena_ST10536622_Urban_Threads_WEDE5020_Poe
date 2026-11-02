@@ -1,0 +1,517 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- PAGE INFORMATION -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO DESCRIPTION -->
+    <meta name="description"
+        content="Get in touch with Urban Threads in Johannesburg, Gauteng. Find our contact information, business hours and contact form.">
+
+    <title>Contact Us | Urban Threads Johannesburg</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- LEAFLET MAP CSS -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <!-- LEAFLET MAP JAVASCRIPT -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+
+    <!-- ========================================
+         HEADER AND NAVIGATION
+    ======================================== -->
+
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+            <a href="index.html" class="logo">Urban Threads.</a>
+
+            <!-- MOBILE MENU -->
+            <input type="checkbox"
+                id="nav-toggle"
+                class="nav-toggle-input">
+
+            <label for="nav-toggle"
+                class="nav-toggle"
+                aria-label="Toggle menu">
+
+                <i class="fa fa-bars icon-open" aria-hidden="true"></i>
+                <i class="fa fa-times icon-close" aria-hidden="true"></i>
+
+            </label>
+
+            <!-- NAVIGATION -->
+            <nav class="main-nav">
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiries.html">Enquiries</a></li>
+
+                    <li>
+                        <a href="contact.html" aria-current="page">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ========================================
+         MAIN CONTENT
+    ======================================== -->
+
+    <main>
+
+        <div class="container">
+
+            <!-- PAGE HEADING -->
+            <header class="page-header">
+
+                <span class="eyebrow">Get In Touch</span>
+
+                <h1>Contact Us</h1>
+
+                <p>
+                    Have a question? Send Urban Threads
+                    a message or use our contact information.
+                </p>
+
+            </header>
+
+
+            <!-- ========================================
+                 CONTACT LAYOUT
+            ======================================== -->
+
+            <div class="form-layout">
+
+                <!-- CONTACT FORM -->
+                <section class="form-card">
+
+                    <h2>Contact Form</h2>
+
+                    <form id="contact-form"
+                        action="#"
+                        method="post"
+                        novalidate>
+
+                        <!-- NAME -->
+                        <div class="form-group">
+
+                            <label for="c-name">Name</label>
+
+                            <input type="text"
+                                id="c-name"
+                                name="name"
+                                autocomplete="given-name"
+                                required>
+
+                        </div>
+
+
+                        <!-- SURNAME -->
+                        <div class="form-group">
+
+                            <label for="c-surname">Surname</label>
+
+                            <input type="text"
+                                id="c-surname"
+                                name="surname"
+                                autocomplete="family-name"
+                                required>
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+                        <div class="form-group">
+
+                            <label for="c-email">Email</label>
+
+                            <input type="email"
+                                id="c-email"
+                                name="email"
+                                placeholder="you@email.com"
+                                autocomplete="email"
+                                required>
+
+                        </div>
+
+
+                        <!-- CONTACT NUMBER -->
+                        <div class="form-group">
+
+                            <label for="c-tel">Contact Number</label>
+
+                            <input type="tel"
+                                id="c-tel"
+                                name="tel"
+                                placeholder="+27 ..."
+                                autocomplete="tel">
+
+                        </div>
+
+
+                        <!-- TYPE OF MESSAGE -->
+                        <div class="form-group">
+
+                            <label for="c-type">Type of Message</label>
+
+                            <select id="c-type"
+                                name="type"
+                                required>
+
+                                <option value="">
+                                    Select message type
+                                </option>
+
+                                <option value="General Question">
+                                    General Question
+                                </option>
+
+                                <option value="Feedback">
+                                    Feedback
+                                </option>
+
+                                <option value="Complaint">
+                                    Complaint
+                                </option>
+
+                                <option value="Business Enquiry">
+                                    Business Enquiry
+                                </option>
+
+                                <option value="Other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- MESSAGE -->
+                        <div class="form-group">
+
+                            <label for="c-message">Message</label>
+
+                            <textarea
+                                id="c-message"
+                                name="message"
+                                rows="5"
+                                minlength="10"
+                                required
+                                placeholder="Write your message (at least 10 characters)..."></textarea>
+
+                        </div>
+
+
+                        <!-- SEND BUTTON -->
+                        <button type="submit"
+                            class="btn btn-success btn-block">
+
+                            <i class="fa fa-paper-plane"
+                                aria-hidden="true"></i>
+
+                            Send
+
+                        </button>
+
+
+                        <!-- FORM RESPONSE -->
+                        <div id="contact-response"
+                            class="contact-response is-hidden"
+                            role="status"
+                            aria-live="polite">
+                        </div>
+
+
+                        <!-- FORM NOTE -->
+                        <p class="form-note">
+                            After validation, your email application
+                            will open with a prepared message. You must
+                            press Send there to deliver the email.
+                        </p>
+
+                    </form>
+
+                </section>
+
+
+                <!-- ========================================
+                     CONTACT INFORMATION
+                ======================================== -->
+
+                <section class="info-card">
+
+                    <h2>Visit Urban Threads</h2>
+
+                    <!-- LOCATION MAP -->
+                    <div id="map"
+                        class="contact-map"
+                        aria-label="Map showing Johannesburg, Gauteng">
+                    </div>
+
+                    <h3>Johannesburg</h3>
+
+                    <p>Gauteng, South Africa</p>
+
+
+                    <!-- CONTACT DETAILS -->
+                    <h3>You can also reach us on:</h3>
+
+                    <ul class="icon-list">
+
+                        <li>
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+
+                            <a href="tel:+27111234567">
+                                +27 11 123 4567
+                            </a>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+                            <a href="mailto:info@urbanthreads.co.za">
+                                info@urbanthreads.co.za
+                            </a>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                            <a href="https://www.google.com/maps/search/?api=1&query=Johannesburg%2C+Gauteng"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Johannesburg, Gauteng
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                    <!-- OPENING HOURS -->
+                    <h3>Opening Hours</h3>
+
+                    <ul class="icon-list">
+
+                        <li>
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+
+                            <span>
+                                <strong>Mon - Fri:</strong>
+                                08:00 - 17:00
+                            </span>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+
+                            <span>
+                                <strong>Saturday:</strong>
+                                09:00 - 14:00
+                            </span>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+
+                            <span>
+                                <strong>Sunday:</strong>
+                                Closed
+                            </span>
+                        </li>
+
+                    </ul>
+
+
+                    <!-- SOCIAL MEDIA -->
+                    <ul class="social-list">
+
+                        <li>
+                            <a class="icon-btn"
+                                href="https://www.facebook.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Facebook">
+
+                                <i class="fa fa-facebook"
+                                    aria-hidden="true"></i>
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="icon-btn"
+                                href="https://www.instagram.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Instagram">
+
+                                <i class="fa fa-instagram"
+                                    aria-hidden="true"></i>
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="icon-btn"
+                                href="https://wa.me/27761428080?text=Hello%20Urban%20Threads%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Chat with Urban Threads on WhatsApp">
+
+                                <i class="fa fa-whatsapp"
+                                    aria-hidden="true"></i>
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ========================================
+         FOOTER
+    ======================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <!-- BUSINESS INFORMATION -->
+            <div class="footer-col">
+
+                <p class="logo">Urban Threads.</p>
+
+                <ul class="icon-list">
+
+                    <li>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+
+                        <a href="tel:+27111234567">
+                            +27 11 123 4567
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+                        <a href="mailto:info@urbanthreads.co.za">
+                            info@urbanthreads.co.za
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Johannesburg%2C+Gauteng"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Johannesburg, Gauteng
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- FOOTER SOCIAL MEDIA -->
+            <div class="footer-col">
+
+                <h4>Follow Us</h4>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a class="icon-btn"
+                            href="https://www.facebook.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Facebook">
+
+                            <i class="fa fa-facebook"
+                                aria-hidden="true"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="icon-btn"
+                            href="https://www.instagram.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Instagram">
+
+                            <i class="fa fa-instagram"
+                                aria-hidden="true"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="icon-btn"
+                            href="https://wa.me/27761428080?text=Hello%20Urban%20Threads%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Chat with Urban Threads on WhatsApp">
+
+                            <i class="fa fa-whatsapp"
+                                aria-hidden="true"></i>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+        <p class="copyright">
+            &copy; 2026 Urban Threads. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- SHARED JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

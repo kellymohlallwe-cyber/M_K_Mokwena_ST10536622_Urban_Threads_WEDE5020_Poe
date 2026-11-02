@@ -1,0 +1,7 @@
+# Urban Threads Clothing Store
+# Robots.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.yourdomain.co.za/sitemap.xml
