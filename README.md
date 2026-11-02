@@ -332,6 +332,9 @@ These improvements build on the HTML and CSS work completed in Parts 1 and 2, ma
 | 02/11/2026 | v5.0 | Enabled GitHub Pages to publish the Urban Threads website online using HTTPS. |
 | 02/11/2026 | v5.1 | Reviewed website security, SEO settings and search engine crawling files, including `robots.txt` and `sitemap.xml`. |
 | 02/11/2026 | v5.2 | Continued website testing and identified GitHub Pages file-not-found errors affecting the About Us and Enquiries pages for further correction. |
+| v2.6 | 02/11/2026 | Updated the `robots.txt` file with the live website URL and added the sitemap location. |
+| v2.7 | 02/11/2026 | Updated the `sitemap.xml` file to include the live website URL and website pages. |
+| v2.8 | 02/11/2026 | Uploaded the latest website files to GitHub, resolved merge conflicts and published the website using GitHub Pages. Tested the live website and confirmed that the pages, images, navigation, robots.txt and sitemap.xml were accessible. |
 ---
 
 ## References
